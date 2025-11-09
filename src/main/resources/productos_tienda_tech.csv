@@ -1,0 +1,51 @@
+﻿idProducto,nombre,marca,categoria,precio,year,stock
+1,Mini PC 219,DataSpeed,Ordenador,1157.64,2023,68
+2,Teclado 591,AlphaTech,Accesorio,85.28,2023,36
+3,Auriculares 530,HomeLink,Audio,223.23,2023,8
+4,Switch 609,SoundBlaze,Redes,135.11,2022,54
+5,Hub USB 824,ViewEdge,Accesorio,48.01,2022,54
+6,Disco Duro Externo 575GB,Connectify,Almacenamiento,139.83,2023,48
+7,Micrófono 489,ClickMaster,Audio,149.52,2023,22
+8,Móvil A716,Connectify,Movil,668.84,2025,31
+9,Portátil 86,Connectify,Ordenador,1030.55,2024,61
+10,Base Refrigerante 149,ChronoLink,Accesorio,91.0,2024,28
+11,Tarjeta SD 928GB,SoundBlaze,Almacenamiento,236.58,2024,50
+12,Hub USB 337,ChronoLink,Accesorio,101.49,2025,12
+13,Switch 915,ChronoLink,Redes,214.76,2022,61
+14,Auriculares 636,Connectify,Audio,275.39,2024,63
+15,Monitor 32 4K,AlphaTech,Monitores,562.26,2025,33
+16,Monitor 27 FullHD,TechNova,Monitores,340.95,2025,8
+17,Memoria USB 737GB,Connectify,Almacenamiento,105.87,2022,31
+18,Memoria USB 585GB,ViewEdge,Almacenamiento,236.06,2024,56
+19,Monitor 21p FullHD,ViewEdge,Monitores,366.14,2022,68
+20,Mini PC 237,NetForce,Ordenador,1184.85,2023,44
+21,Ultrabook 418,GraphiCore,Ordenador,1511.68,2024,49
+22,Altavoz Bluetooth 716,Connectify,Audio,158.64,2022,54
+23,Móvil Z165,KeyWave,Movil,1267.75,2024,63
+24,Smartphone Z403,Connectify,Movil,396.67,2022,36
+25,Cargador Rápido 654,ChronoLink,Accesorio,62.54,2023,30
+26,SSD 240GB,ViewEdge,Almacenamiento,168.25,2023,20
+27,Repetidor 674,TechNova,Redes,216.28,2022,58
+28,PC Gaming 170,SonicWave,Ordenador,1860.32,2025,55
+29,Disco Duro Externo 373GB,ChronoLink,Almacenamiento,141.42,2025,77
+30,Base Refrigerante 499,DataSpeed,Accesorio,118.12,2025,5
+31,Smartphone X631,HomeLink,Movil,204.95,2024,28
+32,Ratón 811,KeyWave,Accesorio,68.24,2025,18
+33,Smartphone X957,Connectify,Movil,1021.52,2025,18
+34,Adaptador WiFi 575,Immersia,Redes,157.21,2024,5
+35,Adaptador WiFi 409,ViewEdge,Redes,83.24,2024,53
+36,Cargador Rápido 682,AlphaTech,Accesorio,66.63,2024,53
+37,Teclado 105,NetForce,Accesorio,97.08,2024,15
+38,Altavoz Bluetooth 852,SonicWave,Audio,127.7,2022,66
+39,Altavoz Bluetooth 525,SoundBlaze,Audio,108.91,2023,48
+40,Repetidor 945,NetForce,Redes,202.88,2024,11
+41,Hub USB 825,NetForce,Accesorio,59.54,2024,24
+42,Hub USB 604,GraphiCore,Accesorio,37.64,2022,67
+43,PC Gaming 343,DataSpeed,Ordenador,973.02,2025,42
+44,Altavoz Bluetooth 329,SoundBlaze,Audio,119.87,2023,25
+45,Tablet Z741,HomeLink,Movil,644.22,2022,46
+46,Micrófono 427,NetForce,Audio,184.72,2022,51
+47,Altavoz Bluetooth 820,HomeLink,Audio,234.42,2025,23
+48,Monitor 27p HD,NetForce,Monitores,192.07,2022,25
+49,Ratón 483,Immersia,Accesorio,99.35,2022,34
+50,Portátil 240,ViewEdge,Ordenador,1188.26,2023,55
