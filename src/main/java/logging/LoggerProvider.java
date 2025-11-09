@@ -1,17 +1,20 @@
+package logging;
+
 import log4Mats.LogManager;
 import log4Mats.Logger;
 
 import java.io.File;
 
 public class LoggerProvider {
-    private static final File JSON = new File("config\\logConfig.json");
+    private static final File JSON = new File("src/main/resources/logConfig.json");
     private static final Logger LOGGER = LogManager.getLoggerFromJson(JSON);
 
-    // Private constructor to prevent instantiation
+    // Constructor privado para impedir que se instancie
     private LoggerProvider() {}
 
-    // Accessor
+    // Accedemos al logger con este metodo static
     public static Logger getLogger() {
         return LOGGER;
     }
+
 }
