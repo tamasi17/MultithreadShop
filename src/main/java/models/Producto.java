@@ -1,5 +1,7 @@
+package models;
+
 /**
- * Define un Producto a la venta en la tienda.
+ * Define un models.Producto a la venta en la tienda.
  * Modelo para Jackson CSV reader. Schema:
  * idProducto,nombre,marca,categoria,precio,year,stock
  *

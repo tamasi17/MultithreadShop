@@ -1,3 +1,5 @@
+package models;
+
 /**
  * Define el estado de un pedido.
  * Cada pedido puede estar Pendiente, En proceso o Enviado.
