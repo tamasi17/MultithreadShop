@@ -1,9 +1,8 @@
 package models;
 
 import log4Mats.LogLevel;
-import utils.AccesoTienda;
-import utils.ColaPedidosClasica;
-import utils.ProductManager;
+import utils.AccesoCliente;
+import utils.Cliente;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,22 +11,22 @@ import java.util.Random;
 import static logging.LoggerProvider.getLogger;
 
 /**
- * Define un models.Cliente, extiende Thread.
+ * Define un Cliente, extiende Thread.
  * El cliente genera pedidos aleatorios.
  *
  * @author mati
  */
 
-public class Cliente extends Thread {
+public class ClienteNormal extends Thread implements Cliente {
 
     private int idCliente;
-    private static int contador = 100;
-    private AccesoTienda tienda;
+    private static int contador = 0;
+    private final AccesoCliente tienda;
     private List<Producto> carrito;
-    private List<Producto> productosDisponibles;
+    private final List<Producto> productosDisponibles;
 
 
-    public Cliente(AccesoTienda tienda) {
+    public ClienteNormal(AccesoCliente tienda) {
         this.tienda = tienda;
         this.idCliente = ++contador;
         this.carrito = new ArrayList<>();
@@ -42,10 +41,13 @@ public class Cliente extends Thread {
 
     }
 
-    private void elegirArticulos() {
+    /**
+     * Metodo que elige entre 1 y 3 articulos aleatorios, comprobando si hay stock.
+     */
+    public void elegirArticulos() {
 
+        // Cantidad de articulos normales que se lleva el cliente
         Random random = new Random();
-        // cantidad de articulos normales que se lleva el cliente
         int numArticulos = random.nextInt(3) + 1;
 
         for (int i = 0; i < numArticulos; i++) {

@@ -1,15 +1,22 @@
 package models;
 
+import log4Mats.LogLevel;
 import utils.AccesoTransportista;
 
-public class Transportistas {
+import static logging.LoggerProvider.getLogger;
 
-    Thread transportista;
+public class Transportista {
+
+    Thread thread;
     AccesoTransportista tienda;
 
-    public Transportistas(AccesoTransportista tienda) {
+    public Transportista(AccesoTransportista tienda) {
         this.tienda = tienda;
-        this.transportista = new Thread(tienda::transportarPedido);
-        transportista.start();
+        getLogger().log(LogLevel.TRACE, "Transportista ha llegado a la tienda");
+        this.thread = new Thread(tienda::transportarPedido);
+    }
+
+    public Thread getThread(){
+        return this.thread;
     }
 }
