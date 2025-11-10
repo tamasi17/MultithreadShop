@@ -17,6 +17,7 @@ public class Main {
         // Abrimos tienda
         Tienda tienda = new Tienda();
 
+        // Clientes generan pedidos, Gestores procesan, Transportadores reparten.
         Cliente c1 = new Cliente(tienda);
         c1.start();
 

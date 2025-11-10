@@ -47,7 +47,6 @@ public class Cliente extends Thread {
                 articuloElegido = random.nextInt(productos.size());
             }
 
-
             // Añadimos articuloElegido al carrito del pedido:
             carrito.add(productos.get(articuloElegido));
             getLogger().log(LogLevel.INFO,
@@ -56,6 +55,7 @@ public class Cliente extends Thread {
         }
 
         Pedido pedido = new Pedido(carrito);
+
 
         ColaPedidosClasica.añadir(pedido);
         getLogger().log(LogLevel.INFO, "Pedido añadido a la cola: "+ pedido.getIdPedido());
