@@ -37,6 +37,7 @@ public class Cliente extends Thread {
         List<Producto> productos = tienda.getProductos();
         List<Producto> carrito = new ArrayList<>();
 
+        // Turn to elegirArticulo()
         for (int i = 0; i < numArticulos; i++) {
             int articuloElegido = random.nextInt(productos.size()); // elige un producto aleatorio
 
@@ -54,11 +55,15 @@ public class Cliente extends Thread {
 
         }
 
+        // Turn to generarPedido();
         Pedido pedido = new Pedido(carrito);
-
-
         ColaPedidosClasica.añadir(pedido);
         getLogger().log(LogLevel.INFO, "Pedido añadido a la cola: "+ pedido.getIdPedido());
 
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente ["+ idCliente +"]";
     }
 }

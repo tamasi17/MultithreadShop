@@ -23,7 +23,8 @@ public class ColaPedidosClasica {
             try {
                 Thread.currentThread().wait();
             } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.TRACE, "Cola llena, cliente esperando."); // idCliente aqui?
+                getLogger().log(LogLevel.TRACE,
+                        "Cola llena, cliente esperando: "+ Thread.currentThread().toString());
             }
         }
         colaPedidos.add(pedido);
@@ -34,7 +35,8 @@ public class ColaPedidosClasica {
             try {
                 Thread.currentThread().wait();
             } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.TRACE, "Cola vacia, transportista esperando."); // idTransportista aqui?
+                getLogger().log(LogLevel.TRACE,
+                        "Cola vacia, transportista esperando: "+ Thread.currentThread().toString());
             }
         }
         colaPedidos.poll();
