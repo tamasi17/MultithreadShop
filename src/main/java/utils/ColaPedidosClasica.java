@@ -2,6 +2,7 @@ package utils;
 
 import models.Pedido;
 
+import java.util.LinkedList;
 import java.util.Queue;
 
 /**
@@ -12,16 +13,21 @@ import java.util.Queue;
 
 public class ColaPedidosClasica {
 
-    static Queue<Pedido> colaPedidos;
+    static Queue<Pedido> colaPedidos = new LinkedList<>();
 
     static synchronized public void añadir(Pedido pedido){
-
+        colaPedidos.add(pedido);
     }
 
-    synchronized public void quitar(Pedido pedido){
-
+    synchronized public void quitar(){
+        colaPedidos.poll();
     }
 
+    public static void muestraPedidos(){
+        for (Pedido p : colaPedidos) {
+            System.out.println(p.toString());
+        }
+    }
 
 
 }

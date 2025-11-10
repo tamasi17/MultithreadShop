@@ -45,4 +45,9 @@ public class Pedido {
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
+
+    @Override
+    public String toString() {
+        return idPedido + " [" + estado + "] "+ carrito.toString();
+    }
 }
