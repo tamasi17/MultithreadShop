@@ -18,13 +18,20 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
     private final ProductManager productManager;
     private final ColaPedidosClasica colaPedidos;
     private final LinkedList<ClienteNormal> colaClientes;
+    private boolean isOpen;
 
+    /**
+     * Constructor de Tienda
+     * Genera un productManager que carga productos de un CSV.
+     * Inicializa la cola de Pedidos (Recibidos y Procesados)
+     * Inicializa la cola de Clientes.
+     */
     public Tienda(){
         productManager = new ProductManager();
         productManager.loadFromCsv(new File("src/main/resources/productos_tienda_tech.csv"));
         colaPedidos = new ColaPedidosClasica();
         colaClientes = new LinkedList<>();
-
+        isOpen = true;
         getLogger().log(LogLevel.TRACE,
                 "Tienda abierta con "+ productManager.getProductos().size()+ " productos.");
 
@@ -43,8 +50,8 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
 
     public void prepararPedido(){
 
-        if ( colaPedidos.getColaPedidos().peek() != null){
-        Pedido pedido = colaPedidos.getColaPedidos().peek();
+        if ( colaPedidos.getColaRecibidos().peek() != null){
+        Pedido pedido = colaPedidos.getColaRecibidos().peek();
 
         try {
             Thread.sleep(60);
@@ -73,12 +80,31 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
     }
 
     public void muestraPedidos(){
-        for (Pedido p : colaPedidos.getColaPedidos()) {
+        System.out.println("========================");
+        for (Pedido p : colaPedidos.getColaRecibidos()) {
             System.out.println(p.toString());
         }
     }
 
     public LinkedList<ClienteNormal> getColaClientes() {
         return colaClientes;
+    }
+
+    public boolean isColaProcesadosEmpty(){
+        return colaPedidos.getColaProcesados().isEmpty();
+    }
+
+    @Override
+    public boolean isColaRecibidosEmpty() {
+        return colaPedidos.getColaRecibidos().isEmpty();
+    }
+
+    public boolean isOpen() {
+        return isOpen;
+    }
+
+    public void close(){
+        isOpen = false;
+
     }
 }

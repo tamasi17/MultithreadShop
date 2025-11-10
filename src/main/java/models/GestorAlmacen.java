@@ -27,13 +27,13 @@ public class GestorAlmacen implements Runnable {
     @Override
     public void run() {
 
-        while (true) {
+        while (tienda.isOpen() && !tienda.isColaRecibidosEmpty()) {
             getLogger().log(LogLevel.INFO,
-                    "Gestor "+ Thread.currentThread().toString() +" preparando pedidos.");
+                    "Gestor "+ idGestor +" preparando pedidos.");
             tienda.prepararPedido();
             tienda.marcarParaEnvio();
         }
-
+        getLogger().log(LogLevel.INFO, "Gestor "+ idGestor +" ha finalizado su jornada");
 
     }
 

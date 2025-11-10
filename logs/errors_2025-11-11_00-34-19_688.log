@@ -1,0 +1,362 @@
+[1] [2025-11-11_00-29-59_107] [INFO] [utils.ProductManager.loadFromCsv]: Lista de productos cargada.
+[2] [2025-11-11_00-29-59_115] [TRACE] [models.Tienda.<init>]: Tienda abierta con 50 productos.
+[3] [2025-11-11_00-29-59_117] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[4] [2025-11-11_00-29-59_118] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[5] [2025-11-11_00-29-59_118] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[6] [2025-11-11_00-29-59_119] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[7] [2025-11-11_00-29-59_119] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[8] [2025-11-11_00-29-59_120] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[9] [2025-11-11_00-29-59_121] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[10] [2025-11-11_00-29-59_121] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[11] [2025-11-11_00-29-59_122] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[12] [2025-11-11_00-29-59_123] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[13] [2025-11-11_00-29-59_123] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[14] [2025-11-11_00-29-59_124] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[15] [2025-11-11_00-29-59_124] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[16] [2025-11-11_00-29-59_124] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[17] [2025-11-11_00-29-59_125] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[18] [2025-11-11_00-29-59_125] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[19] [2025-11-11_00-29-59_126] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[20] [2025-11-11_00-29-59_127] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[21] [2025-11-11_00-29-59_127] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[22] [2025-11-11_00-29-59_128] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[23] [2025-11-11_00-29-59_128] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[24] [2025-11-11_00-29-59_128] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[25] [2025-11-11_00-29-59_129] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[26] [2025-11-11_00-29-59_129] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[27] [2025-11-11_00-29-59_130] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[28] [2025-11-11_00-29-59_130] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[29] [2025-11-11_00-29-59_131] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[30] [2025-11-11_00-29-59_131] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[31] [2025-11-11_00-29-59_131] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[32] [2025-11-11_00-29-59_132] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[33] [2025-11-11_00-29-59_132] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[34] [2025-11-11_00-29-59_133] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[35] [2025-11-11_00-29-59_133] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[36] [2025-11-11_00-29-59_133] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[37] [2025-11-11_00-29-59_134] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[38] [2025-11-11_00-29-59_134] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[39] [2025-11-11_00-29-59_135] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[40] [2025-11-11_00-29-59_135] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[41] [2025-11-11_00-29-59_135] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[42] [2025-11-11_00-29-59_136] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[43] [2025-11-11_00-29-59_136] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[44] [2025-11-11_00-29-59_136] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[45] [2025-11-11_00-29-59_137] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[46] [2025-11-11_00-29-59_137] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[47] [2025-11-11_00-29-59_138] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[48] [2025-11-11_00-29-59_138] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[49] [2025-11-11_00-29-59_138] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[50] [2025-11-11_00-29-59_139] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[51] [2025-11-11_00-29-59_139] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[52] [2025-11-11_00-29-59_139] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[53] [2025-11-11_00-30-02_129] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
+[53] [2025-11-11_00-30-02_131] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[53] [2025-11-11_00-30-02_130] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[53] [2025-11-11_00-30-02_129] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[53] [2025-11-11_00-30-02_131] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (9) [ORDENADOR] Portátil 86 - Connectify, 2024: 1030.55 euros.
+[53] [2025-11-11_00-30-02_133] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[53] [2025-11-11_00-30-02_133] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[53] [2025-11-11_00-30-02_132] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[53] [2025-11-11_00-30-02_133] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (15) [MONITOR] Monitor 32 4K - AlphaTech, 2025: 562.26 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[53] [2025-11-11_00-30-02_135] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[53] [2025-11-11_00-30-02_134] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[53] [2025-11-11_00-30-02_135] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[64] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[66] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[67] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[68] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[67] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[71] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[72] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[73] [2025-11-11_00-30-02_139] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[73] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[73] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
+[73] [2025-11-11_00-30-02_139] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[74] [2025-11-11_00-30-02_139] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[73] [2025-11-11_00-30-02_138] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[74] [2025-11-11_00-30-02_139] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (22) [AUDIO] Altavoz Bluetooth 716 - Connectify, 2022: 158.64 euros.
+[74] [2025-11-11_00-30-02_139] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[79] [2025-11-11_00-30-02_140] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[83] [2025-11-11_00-30-02_140] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
+[83] [2025-11-11_00-30-02_140] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[83] [2025-11-11_00-30-02_141] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[83] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 8 ha finalizado su jornada
+[84] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 10 ha finalizado su jornada
+[84] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 3 ha finalizado su jornada
+[84] [2025-11-11_00-30-02_141] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[85] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 9 ha finalizado su jornada
+[91] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 11 ha finalizado su jornada
+[94] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 5 ha finalizado su jornada
+[94] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 13 ha finalizado su jornada
+[96] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 2 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_142] [INFO] [models.GestorAlmacen.run]: Gestor 6 ha finalizado su jornada
+[96] [2025-11-11_00-30-02_142] [INFO] [models.GestorAlmacen.run]: Gestor 17 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_142] [INFO] [models.GestorAlmacen.run]: Gestor 20 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_142] [INFO] [models.GestorAlmacen.run]: Gestor 16 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 12 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 1 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 14 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_142] [INFO] [models.GestorAlmacen.run]: Gestor 18 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 4 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_142] [INFO] [models.GestorAlmacen.run]: Gestor 15 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 19 ha finalizado su jornada
+[97] [2025-11-11_00-30-02_141] [INFO] [models.GestorAlmacen.run]: Gestor 7 ha finalizado su jornada
+[107] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[107] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[108] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[109] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (12) [ACCESORIO] Hub USB 337 - ChronoLink, 2025: 101.49 euros.
+[110] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[110] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (12) [ACCESORIO] Hub USB 337 - ChronoLink, 2025: 101.49 euros.
+[111] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
+[111] [2025-11-11_00-30-02_146] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
+[111] [2025-11-11_00-30-02_145] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[111] [2025-11-11_00-30-02_146] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[111] [2025-11-11_00-30-02_146] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[119] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[124] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[128] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[131] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[131] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[132] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[133] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[135] [2025-11-11_00-30-02_147] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (9) [ORDENADOR] Portátil 86 - Connectify, 2024: 1030.55 euros.
+[135] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[135] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (15) [MONITOR] Monitor 32 4K - AlphaTech, 2025: 562.26 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[136] [2025-11-11_00-30-02_148] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
+[136] [2025-11-11_00-30-02_149] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[136] [2025-11-11_00-30-02_149] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[136] [2025-11-11_00-30-02_149] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[136] [2025-11-11_00-30-02_149] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[149] [2025-11-11_00-30-02_151] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[154] [2025-11-11_00-30-02_151] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[156] [2025-11-11_00-30-02_151] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[156] [2025-11-11_00-30-02_151] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[157] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[157] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[158] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[163] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[164] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[164] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[164] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[166] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[167] [2025-11-11_00-30-02_153] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[167] [2025-11-11_00-30-02_152] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[167] [2025-11-11_00-30-02_153] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
+[171] [2025-11-11_00-30-02_189] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 2
+[172] [2025-11-11_00-30-02_240] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 1
+[173] [2025-11-11_00-30-02_290] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 3
+[174] [2025-11-11_00-30-02_342] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 4
+[175] [2025-11-11_00-30-02_391] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 5
+[176] [2025-11-11_00-30-02_442] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 6
+[177] [2025-11-11_00-30-02_492] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 7
+[178] [2025-11-11_00-30-02_543] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 8
+[179] [2025-11-11_00-30-02_594] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 9
+[180] [2025-11-11_00-30-02_644] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 10
+[181] [2025-11-11_00-30-02_695] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 11
+[182] [2025-11-11_00-30-02_745] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 12
+[183] [2025-11-11_00-30-02_796] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 13
+[184] [2025-11-11_00-30-02_847] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 14
+[185] [2025-11-11_00-30-02_898] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 15
+[186] [2025-11-11_00-30-02_949] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 16
+[187] [2025-11-11_00-30-03_000] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 17
+[188] [2025-11-11_00-30-03_051] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 18
+[189] [2025-11-11_00-30-03_102] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 19
+[190] [2025-11-11_00-30-03_151] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 20
+[191] [2025-11-11_00-30-03_202] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 21
+[192] [2025-11-11_00-30-03_252] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 22
+[193] [2025-11-11_00-30-03_303] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 23
+[194] [2025-11-11_00-30-03_354] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 24
+[195] [2025-11-11_00-30-03_405] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 25
+[1] [2025-11-11_00-34-16_604] [INFO] [utils.ProductManager.loadFromCsv]: Lista de productos cargada.
+[2] [2025-11-11_00-34-16_613] [TRACE] [models.Tienda.<init>]: Tienda abierta con 50 productos.
+[3] [2025-11-11_00-34-16_615] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[4] [2025-11-11_00-34-16_616] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[5] [2025-11-11_00-34-16_617] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[6] [2025-11-11_00-34-16_618] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[7] [2025-11-11_00-34-16_619] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[8] [2025-11-11_00-34-16_619] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[9] [2025-11-11_00-34-16_620] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[10] [2025-11-11_00-34-16_620] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[11] [2025-11-11_00-34-16_621] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[12] [2025-11-11_00-34-16_621] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[13] [2025-11-11_00-34-16_622] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[14] [2025-11-11_00-34-16_622] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[15] [2025-11-11_00-34-16_623] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[16] [2025-11-11_00-34-16_623] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[17] [2025-11-11_00-34-16_624] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[18] [2025-11-11_00-34-16_624] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[19] [2025-11-11_00-34-16_625] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[20] [2025-11-11_00-34-16_626] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[21] [2025-11-11_00-34-16_626] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[22] [2025-11-11_00-34-16_627] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[23] [2025-11-11_00-34-16_627] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[24] [2025-11-11_00-34-16_628] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[25] [2025-11-11_00-34-16_628] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[26] [2025-11-11_00-34-16_629] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[27] [2025-11-11_00-34-16_629] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[28] [2025-11-11_00-34-16_629] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[29] [2025-11-11_00-34-16_630] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[30] [2025-11-11_00-34-16_630] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[31] [2025-11-11_00-34-16_631] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[32] [2025-11-11_00-34-16_631] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[33] [2025-11-11_00-34-16_631] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[34] [2025-11-11_00-34-16_632] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[35] [2025-11-11_00-34-16_633] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[36] [2025-11-11_00-34-16_634] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[37] [2025-11-11_00-34-16_634] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[38] [2025-11-11_00-34-16_635] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[39] [2025-11-11_00-34-16_635] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[40] [2025-11-11_00-34-16_636] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[41] [2025-11-11_00-34-16_636] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[42] [2025-11-11_00-34-16_637] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[43] [2025-11-11_00-34-16_637] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[44] [2025-11-11_00-34-16_637] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[45] [2025-11-11_00-34-16_638] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[46] [2025-11-11_00-34-16_638] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[47] [2025-11-11_00-34-16_639] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[48] [2025-11-11_00-34-16_639] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[49] [2025-11-11_00-34-16_639] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[50] [2025-11-11_00-34-16_640] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[51] [2025-11-11_00-34-16_640] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[52] [2025-11-11_00-34-16_640] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado un cliente a la tienda
+[53] [2025-11-11_00-34-19_630] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
+[53] [2025-11-11_00-34-19_630] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[53] [2025-11-11_00-34-19_630] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (9) [ORDENADOR] Portátil 86 - Connectify, 2024: 1030.55 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[53] [2025-11-11_00-34-19_633] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
+[53] [2025-11-11_00-34-19_631] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[53] [2025-11-11_00-34-19_632] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[61] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[62] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[63] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[67] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[69] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[74] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[78] [2025-11-11_00-34-19_636] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[79] [2025-11-11_00-34-19_636] [INFO] [models.GestorAlmacen.run]: Gestor 1 ha finalizado su jornada
+[79] [2025-11-11_00-34-19_637] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
+[79] [2025-11-11_00-34-19_637] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
+[79] [2025-11-11_00-34-19_637] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[79] [2025-11-11_00-34-19_637] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[79] [2025-11-11_00-34-19_637] [INFO] [models.GestorAlmacen.run]: Gestor 5 ha finalizado su jornada
+[79] [2025-11-11_00-34-19_637] [INFO] [models.GestorAlmacen.run]: Gestor 8 ha finalizado su jornada
+[79] [2025-11-11_00-34-19_637] [INFO] [models.GestorAlmacen.run]: Gestor 4 ha finalizado su jornada
+[79] [2025-11-11_00-34-19_637] [INFO] [models.GestorAlmacen.run]: Gestor 9 ha finalizado su jornada
+[79] [2025-11-11_00-34-19_637] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
+[80] [2025-11-11_00-34-19_637] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[80] [2025-11-11_00-34-19_637] [INFO] [models.GestorAlmacen.run]: Gestor 3 ha finalizado su jornada
+[80] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 12 ha finalizado su jornada
+[81] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 11 ha finalizado su jornada
+[80] [2025-11-11_00-34-19_638] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[80] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 20 ha finalizado su jornada
+[81] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 2 ha finalizado su jornada
+[82] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 6 ha finalizado su jornada
+[82] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 17 ha finalizado su jornada
+[81] [2025-11-11_00-34-19_638] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[83] [2025-11-11_00-34-19_638] [INFO] [models.GestorAlmacen.run]: Gestor 10 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_639] [INFO] [models.GestorAlmacen.run]: Gestor 7 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_639] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[84] [2025-11-11_00-34-19_639] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[84] [2025-11-11_00-34-19_640] [INFO] [models.GestorAlmacen.run]: Gestor 18 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_640] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[84] [2025-11-11_00-34-19_640] [INFO] [models.GestorAlmacen.run]: Gestor 15 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_639] [INFO] [models.GestorAlmacen.run]: Gestor 19 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_640] [INFO] [models.GestorAlmacen.run]: Gestor 13 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_640] [INFO] [models.GestorAlmacen.run]: Gestor 16 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_640] [INFO] [models.GestorAlmacen.run]: Gestor 14 ha finalizado su jornada
+[84] [2025-11-11_00-34-19_640] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[123] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[123] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[123] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[123] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[123] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[123] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
+[125] [2025-11-11_00-34-19_644] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[128] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[128] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[128] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
+[129] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[130] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
+[130] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[130] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[131] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[132] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[132] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[132] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
+[132] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[133] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
+[133] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[133] [2025-11-11_00-34-19_645] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (15) [MONITOR] Monitor 32 4K - AlphaTech, 2025: 562.26 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[134] [2025-11-11_00-34-19_646] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[136] [2025-11-11_00-34-19_648] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[137] [2025-11-11_00-34-19_648] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
+[140] [2025-11-11_00-34-19_648] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[141] [2025-11-11_00-34-19_648] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[152] [2025-11-11_00-34-19_649] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[156] [2025-11-11_00-34-19_649] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
+[158] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[159] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[160] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (30) [ACCESORIO] Base Refrigerante 499 - DataSpeed, 2025: 118.12 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (22) [AUDIO] Altavoz Bluetooth 716 - Connectify, 2022: 158.64 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[161] [2025-11-11_00-34-19_650] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.

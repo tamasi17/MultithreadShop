@@ -7,12 +7,15 @@ import static logging.LoggerProvider.getLogger;
 
 public class Transportista {
 
+    int idTransportista;
+    static int contador = 0;
     Thread thread;
     AccesoTransportista tienda;
 
     public Transportista(AccesoTransportista tienda) {
         this.tienda = tienda;
-        getLogger().log(LogLevel.TRACE, "Transportista ha llegado a la tienda");
+        this.idTransportista = ++contador;
+        getLogger().log(LogLevel.TRACE, "Transportista "+ idTransportista +" ha llegado a la tienda");
         this.thread = new Thread(tienda::transportarPedido);
     }
 

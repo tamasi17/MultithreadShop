@@ -14,7 +14,6 @@ public class Main {
     static Logger logger = LoggerProvider.getLogger();
     static final int NUM_CLIENTES = 50;
     static final int NUM_GESTORES = 20;
-    static final int NUM_TRANSPORTISTAS = 10;
 
     static void main() {
         // Logger pasa informacion por consola
@@ -23,51 +22,67 @@ public class Main {
         // Abrimos tienda
         Tienda tienda = new Tienda();
 
-        generarClientes(tienda);
+        ArrayList<Thread> clientes = generarClientes(tienda);
 
-        // en run() - while(tienda.isOpen y !tienda.colaProcesados/Pedidos.isEmpty) ?
-        generarGestores(tienda);
+        ArrayList<Thread> gestores = generarGestores(tienda);
 
-        generarTransportistas(tienda);
+        ArrayList<Thread> transportistas = generarTransportistas(tienda);
 
+        try {
+            for (Thread c : clientes) c.join();
+        } catch (InterruptedException ie) {
+            logger.log(LogLevel.TRACE, "Esperando a que terminen Clientes");
+        }
 
-        // joins?
         tienda.muestraPedidos();
 
-    }
+        tienda.close();
 
-    private static void generarTransportistas(Tienda tienda) {
-        List<Thread> transportistas = new ArrayList<>();
-        for (int i = 0; i < NUM_TRANSPORTISTAS; i++) {
-            Transportista t = new Transportista(tienda);
-            transportistas.add(t.getThread());
-            t.getThread().start();
+        try {
+        for (Thread g : gestores) g.join();
+        for (Thread t : transportistas) t.join();
+        } catch (InterruptedException ie) {
+            logger.log(LogLevel.TRACE, "Esperando a que terminen Gestores y Transportistas");
         }
+
+
     }
 
-    private static void generarGestores(Tienda tienda) {
-        List<Thread> gestores = new ArrayList<>();
+    private static ArrayList<Thread> generarTransportistas(Tienda tienda) {
+        ArrayList<Thread> listaTransportistas = new ArrayList<>();
+        while (tienda.isOpen() && !tienda.isColaProcesadosEmpty()){
+            Transportista transportista = new Transportista(tienda);
+            listaTransportistas.add(transportista.getThread());
+            transportista.getThread().start();
+        }
+        return listaTransportistas;
+    }
+
+    private static ArrayList<Thread> generarGestores(Tienda tienda) {
+        ArrayList<Thread> listaGestores = new ArrayList<>();
         for (int i = 0; i < NUM_GESTORES; i++) {
             Thread gestor = new Thread(new GestorAlmacen(tienda));
-            gestores.add(gestor);
+            listaGestores.add(gestor);
             gestor.start();
         }
+        return listaGestores;
     }
 
-    private static void generarClientes(Tienda tienda) {
-        // Clientes generan pedidos, Gestores procesan, Transportadores reparten.
+    private static ArrayList<Thread> generarClientes(Tienda tienda) {
+        ArrayList<Thread> listaClientes = new ArrayList<>();
 
         Thread generadorClientes = new Thread(() -> {
             for (int i = 0; i < NUM_CLIENTES; i++) {
                 ClienteNormal cliente = new ClienteNormal(tienda);
                 tienda.getColaClientes().add(cliente);
+                listaClientes.add(cliente);
                 logger.log(LogLevel.TRACE, "Ha llegado un cliente a la tienda");
             }
         });
         generadorClientes.start();
 
         try {
-            Thread.sleep(3000);
+            Thread.sleep(90);
         } catch (InterruptedException e) {
             logger.log(LogLevel.TRACE, "Clientes miran los productos");
         }
@@ -78,5 +93,7 @@ public class Main {
                 c.start();
             }
         }
+
+        return listaClientes;
     }
 }

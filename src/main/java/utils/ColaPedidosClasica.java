@@ -17,17 +17,17 @@ import static logging.LoggerProvider.getLogger;
 
 public class ColaPedidosClasica {
 
-    private Queue<Pedido> colaPedidos;
+    private Queue<Pedido> colaRecibidos;
     private Queue<Pedido> colaProcesados;
 
 
     public ColaPedidosClasica() {
-        this.colaPedidos = new LinkedList<>();
+        this.colaRecibidos = new LinkedList<>();
         this.colaProcesados = new LinkedList<>();
     }
 
     synchronized public void añadirPedido(Pedido pedido) {
-        if (colaPedidos.size() >= 25) {
+        if (colaRecibidos.size() >= 25) {
             try {
                 wait();
             } catch (InterruptedException ie) {
@@ -35,7 +35,7 @@ public class ColaPedidosClasica {
                         "Cola llena, cliente esperando: " + Thread.currentThread().toString());
             }
         }
-        colaPedidos.add(pedido);
+        colaRecibidos.add(pedido);
 
         try {
             Thread.sleep(50);
@@ -48,7 +48,7 @@ public class ColaPedidosClasica {
     synchronized public void procesarPedido() {
 
         // Si la cola esta vacia, se espera
-        if (colaPedidos.isEmpty()) {
+        if (colaRecibidos.isEmpty()) {
             try {
                 wait();
             } catch (InterruptedException ie) {
@@ -58,7 +58,7 @@ public class ColaPedidosClasica {
         }
 
         // Cambiamos el pedido de estado
-        Pedido pedidoEnProceso = colaPedidos.poll();
+        Pedido pedidoEnProceso = colaRecibidos.poll();
         if (pedidoEnProceso != null) {
             pedidoEnProceso.setEstado(Estado.EN_PROCESO);
 
@@ -87,7 +87,7 @@ public class ColaPedidosClasica {
             }
 
             // Cambiamos el pedido de estado
-            Pedido pedidoEnviado = colaPedidos.poll();
+            Pedido pedidoEnviado = colaRecibidos.poll();
             if (pedidoEnviado != null) {
                 pedidoEnviado.setEstado(Estado.ENVIADO);
 
@@ -103,7 +103,11 @@ public class ColaPedidosClasica {
 
         }
 
-    public Queue<Pedido> getColaPedidos() {
-        return colaPedidos;
+    public Queue<Pedido> getColaRecibidos() {
+        return colaRecibidos;
+    }
+
+    public Queue<Pedido> getColaProcesados() {
+        return colaProcesados;
     }
 }
