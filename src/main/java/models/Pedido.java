@@ -48,6 +48,6 @@ public class Pedido {
 
     @Override
     public String toString() {
-        return idPedido + " [" + estado + "] "+ carrito.toString();
+        return idPedido + " [" + estado + "] "+ carrito;
     }
 }

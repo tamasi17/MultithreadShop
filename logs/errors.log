@@ -1,0 +1,6 @@
+[1] [2025-11-10_02-23-34_222] [INFO] [utils.ProductManager.loadFromCsv]: Lista de productos cargada.
+[2] [2025-11-10_02-23-34_228] [TRACE] [models.Tienda.<init>]: Tienda abierta con 50 productos.
+[3] [2025-11-10_02-23-34_235] [INFO] [models.Cliente.run]: Articulo añadido al carrito: 42: Hub USB 604 - GraphiCore [ACCESORIO] 37.64e, 2022 - Stock: 67
+[4] [2025-11-10_02-23-34_236] [INFO] [models.Cliente.run]: Articulo añadido al carrito: 30: Base Refrigerante 499 - DataSpeed [ACCESORIO] 118.12e, 2025 - Stock: 5
+[5] [2025-11-10_02-23-34_237] [INFO] [models.Cliente.run]: Articulo añadido al carrito: 50: Portátil 240 - ViewEdge [ORDENADOR] 1188.26e, 2023 - Stock: 55
+[6] [2025-11-10_02-23-34_238] [INFO] [models.Cliente.run]: Pedido añadido a la cola: 1

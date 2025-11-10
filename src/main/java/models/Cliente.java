@@ -33,7 +33,7 @@ public class Cliente extends Thread {
     public void run() {
 
         Random random = new Random();
-        int numArticulos = random.nextInt(2) + 1; // cantidad de articulos que se lleva el cliente
+        int numArticulos = random.nextInt(3) + 1; // cantidad de articulos que se lleva el cliente
         List<Producto> productos = tienda.getProductos();
         List<Producto> carrito = new ArrayList<>();
 
@@ -47,15 +47,18 @@ public class Cliente extends Thread {
                 articuloElegido = random.nextInt(productos.size());
             }
 
+
             // Añadimos articuloElegido al carrito del pedido:
             carrito.add(productos.get(articuloElegido));
+            getLogger().log(LogLevel.INFO,
+                    "Articulo añadido al carrito: "+ productos.get(articuloElegido).toString());
 
         }
 
         Pedido pedido = new Pedido(carrito);
 
         ColaPedidosClasica.añadir(pedido);
-        getLogger().log(LogLevel.INFO, "Pedido añadido correctamente a la cola");
+        getLogger().log(LogLevel.INFO, "Pedido añadido a la cola: "+ pedido.getIdPedido());
 
     }
 }

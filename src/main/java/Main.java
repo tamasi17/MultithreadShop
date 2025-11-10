@@ -17,9 +17,14 @@ public class Main {
         // Abrimos tienda
         Tienda tienda = new Tienda();
 
-        Cliente cliente = new Cliente(tienda);
-        cliente.start();
+        Cliente c1 = new Cliente(tienda);
+        c1.start();
 
+        try {
+            c1.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         ColaPedidosClasica.muestraPedidos();
 
     }

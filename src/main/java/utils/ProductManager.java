@@ -24,7 +24,11 @@ import models.Producto;
  */
 public class ProductManager {
 
-    List<Producto> productos = new ArrayList<>();
+    List<Producto> productos;
+
+    public ProductManager() {
+        this.productos = new ArrayList<>();
+    }
 
     /**
      * Carga una lista de Productos desde un fichero CSV
@@ -34,7 +38,8 @@ public class ProductManager {
     public List<Producto> loadFromCsv(File csv) {
         CsvMapper mapper = new CsvMapper();
         CsvSchema schema = CsvSchema.emptySchema().withHeader(); // usa la primera linea como schema
-        List<Producto> productos = null;
+
+        if (!csv.exists()) getLogger().log(LogLevel.ERROR, "CSV file does not exist");
 
         try {
         // Iterador, clase Producto como modelo, siguiendo el Schema marcado en la primera linea.
@@ -45,13 +50,13 @@ public class ProductManager {
 
             productos = iterator.readAll();
         } catch (IOException ioe) {
-            System.err.println("Error al cargar archivos desde CSV: "+ ioe.getLocalizedMessage());
             getLogger().log(LogLevel.ERROR, "Error al cargar archivos CSV");
         }
 
         // throws AssertionError si lo activamos
         assert productos != null;
         productos = Collections.synchronizedList(productos);
+        getLogger().log(LogLevel.INFO, "Lista de productos cargada.");
 
         return productos;
     }
