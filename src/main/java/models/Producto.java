@@ -12,7 +12,7 @@ public class Producto {
     int idProducto;
     String nombre;
     String marca;
-    Categoria categoria;
+    Categorias categoria;
     double precio;
     int year;
     int stock;
@@ -49,11 +49,11 @@ public class Producto {
         this.precio = precio;
     }
 
-    public Categoria getCategoria() {
+    public Categorias getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(Categoria categoria) {
+    public void setCategoria(Categorias categoria) {
         this.categoria = categoria;
     }
 
@@ -73,10 +73,13 @@ public class Producto {
         this.stock = stock;
     }
 
+    /**
+     * toString no incluye stock para ver los pedidos mejor
+     * @return
+     */
     @Override
     public String toString() {
-        return idProducto + ": " + nombre + " - " + marca +
-                " [" + categoria + "] " + precio + "e, " + year +
-                " - Stock: " + stock;
+        return "("+idProducto + ") [" + categoria + "] "
+                + nombre + " - " + marca +", "+ year +": "+ precio + " euros.";
     }
 }
