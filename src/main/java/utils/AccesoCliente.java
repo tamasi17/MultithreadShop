@@ -1,11 +1,11 @@
 package utils;
 
-import models.Pedido;
 import models.Producto;
 
 import java.util.List;
 
-public interface AccesoTienda {
+public interface AccesoCliente {
+
     List<Producto> getProductos();
-    void enviarPedido(Pedido pedido);
+    void enviarPedido(List<Producto> carrito);
 }

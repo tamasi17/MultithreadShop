@@ -1,6 +1,7 @@
 package utils;
 
 import log4Mats.LogLevel;
+import models.Estado;
 import models.Pedido;
 
 import java.util.LinkedList;
@@ -16,39 +17,93 @@ import static logging.LoggerProvider.getLogger;
 
 public class ColaPedidosClasica {
 
-    static Queue<Pedido> colaPedidos = new LinkedList<>();
+    private Queue<Pedido> colaPedidos;
+    private Queue<Pedido> colaProcesados;
 
-    static synchronized public void añadir(Pedido pedido){
-        if (colaPedidos.size()>=25){
+
+    public ColaPedidosClasica() {
+        this.colaPedidos = new LinkedList<>();
+        this.colaProcesados = new LinkedList<>();
+    }
+
+    synchronized public void añadirPedido(Pedido pedido) {
+        if (colaPedidos.size() >= 25) {
             try {
-                Thread.currentThread().wait();
+                wait();
             } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.TRACE,
-                        "Cola llena, cliente esperando: "+ Thread.currentThread().toString());
+                getLogger().log(LogLevel.ERROR,
+                        "Cola llena, cliente esperando: " + Thread.currentThread().toString());
             }
         }
         colaPedidos.add(pedido);
+
+        try {
+            Thread.sleep(50);
+        } catch (InterruptedException e) {
+            getLogger().log(LogLevel.TRACE, "Añadiendo pedido: " + pedido.getIdPedido());
+        }
+
     }
 
-    synchronized public void retirar(){
-        if (colaPedidos.isEmpty()){
+    synchronized public void procesarPedido() {
+
+        // Si la cola esta vacia, se espera
+        if (colaPedidos.isEmpty()) {
             try {
-                Thread.currentThread().wait();
+                wait();
             } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.TRACE,
-                        "Cola vacia, transportista esperando: "+ Thread.currentThread().toString());
+                getLogger().log(LogLevel.ERROR,
+                        "Cola vacia, gestor esperando: " + Thread.currentThread().toString());
             }
         }
-        colaPedidos.poll();
-    }
 
+        // Cambiamos el pedido de estado
+        Pedido pedidoEnProceso = colaPedidos.poll();
+        if (pedidoEnProceso != null) {
+            pedidoEnProceso.setEstado(Estado.EN_PROCESO);
 
-    public static void muestraPedidos(){
-        for (Pedido p : colaPedidos) {
-            System.out.println(p.toString());
+            try {
+                Thread.sleep(80);
+            } catch (InterruptedException ie) {
+                getLogger().log(LogLevel.TRACE,
+                        "Preparando pedido: " + pedidoEnProceso.getIdPedido());
+            }
+            // Pasamos el pedido a procesados
+            colaProcesados.add(pedidoEnProceso);
         }
+
+        notifyAll();
     }
 
+        synchronized public void enviarProcesado(){
+            // Si la cola esta vacia, se espera
+            if (colaProcesados.isEmpty()) {
+                try {
+                    wait();
+                } catch (InterruptedException ie) {
+                    getLogger().log(LogLevel.ERROR,
+                            "ColaProcesados vacia, transportista esperando: " + Thread.currentThread().toString());
+                }
+            }
 
+            // Cambiamos el pedido de estado
+            Pedido pedidoEnviado = colaPedidos.poll();
+            if (pedidoEnviado != null) {
+                pedidoEnviado.setEstado(Estado.ENVIADO);
 
+                try {
+                    Thread.sleep(80);
+                } catch (InterruptedException ie) {
+                    getLogger().log(LogLevel.TRACE,
+                            "Preparando pedido: " + pedidoEnviado.getIdPedido());
+                }
+            }
+
+            notifyAll();
+
+        }
+
+    public Queue<Pedido> getColaPedidos() {
+        return colaPedidos;
+    }
 }
