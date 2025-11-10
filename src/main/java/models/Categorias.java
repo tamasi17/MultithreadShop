@@ -1,6 +1,6 @@
 package models;
 
-public enum Categoria {
+public enum Categorias {
 
     ORDENADOR,
     ACCESORIO,
@@ -15,9 +15,9 @@ public enum Categoria {
      * @param valor
      * @return
      */
-    public static Categoria desdeCsv(String valor) {
+    public static Categorias desdeCsv(String valor) {
         String arreglo = valor.trim().toUpperCase();
-        return Categoria.valueOf(arreglo);
+        return Categorias.valueOf(arreglo);
     }
 
 }
