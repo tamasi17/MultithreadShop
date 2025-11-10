@@ -2,6 +2,7 @@ package utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -23,14 +24,14 @@ import models.Producto;
  */
 public class ProductManager {
 
-    static List<Producto> productos;
+    List<Producto> productos = new ArrayList<>();
 
     /**
      * Carga una lista de Productos desde un fichero CSV
      * @param csv
      * @return List<Producto>
      */
-    public static List<Producto> loadFromCsv(File csv) {
+    public List<Producto> loadFromCsv(File csv) {
         CsvMapper mapper = new CsvMapper();
         CsvSchema schema = CsvSchema.emptySchema().withHeader(); // usa la primera linea como schema
         List<Producto> productos = null;
@@ -59,7 +60,7 @@ public class ProductManager {
      *
      * @return productos list
      */
-    public static List<Producto> getProductos() {
+    public List<Producto> getProductos() {
         return productos;
     }
 

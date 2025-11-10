@@ -1,6 +1,7 @@
 package models;
 
 import log4Mats.LogLevel;
+import utils.AccesoTienda;
 import utils.ColaPedidosClasica;
 import utils.ProductManager;
 
@@ -19,16 +20,21 @@ import static logging.LoggerProvider.getLogger;
 
 public class Cliente extends Thread {
 
-    int idCliente;
-    static int cliente = 100;
+    private int idCliente;
+    private static int cliente = 100;
+    private AccesoTienda tienda;
 
+
+    public Cliente(AccesoTienda tienda) {
+        this.tienda = tienda;
+    }
 
     @Override
     public void run() {
 
         Random random = new Random();
         int numArticulos = random.nextInt(2) + 1; // cantidad de articulos que se lleva el cliente
-        List<Producto> productos = ProductManager.getProductos();
+        List<Producto> productos = tienda.getProductos();
         List<Producto> carrito = new ArrayList<>();
 
         for (int i = 0; i < numArticulos; i++) {
@@ -49,7 +55,6 @@ public class Cliente extends Thread {
         Pedido pedido = new Pedido(carrito);
 
         ColaPedidosClasica.añadir(pedido);
-        System.out.println("Pedido añadido a la cola.");
         getLogger().log(LogLevel.INFO, "Pedido añadido correctamente a la cola");
 
     }
