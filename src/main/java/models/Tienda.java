@@ -38,36 +38,19 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
     }
 
 
-    @Override
-    public List<Producto> getProductos() { return productManager.getProductos(); }
+
 
     @Override
     public void enviarPedido(List<Producto> carrito) {
         Pedido pedido = new Pedido(carrito);
         colaPedidos.añadirPedido(pedido);
-        getLogger().log(LogLevel.INFO, "Pedido añadido a la cola: "+ pedido.getIdPedido());
+        getLogger().log(LogLevel.INFO, "Pedido añadido a ColaRecibidos: "+ pedido.getIdPedido());
     }
 
-    public void prepararPedido(){
-
-        if ( colaPedidos.getColaRecibidos().peek() != null){
-        Pedido pedido = colaPedidos.getColaRecibidos().peek();
-
-        try {
-            Thread.sleep(60);
-        } catch (InterruptedException ie) {
-            System.err.println(ie.getLocalizedMessage());
-            getLogger().log(LogLevel.INFO, "Preparando pedido: "+ pedido.idPedido);
-        }
-
-        pedido.setEstado(Estado.EN_PROCESO);
-
-        }
+    public Pedido prepararPedido(){
+        return colaPedidos.procesarPedido();
     }
 
-    public void marcarParaEnvio(){
-        colaPedidos.procesarPedido();
-    }
 
     public void transportarPedido(){
 
@@ -85,6 +68,9 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
             System.out.println(p.toString());
         }
     }
+
+    @Override
+    public List<Producto> getProductos() { return productManager.getProductos(); }
 
     public LinkedList<ClienteNormal> getColaClientes() {
         return colaClientes;
@@ -105,6 +91,13 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
 
     public void close(){
         isOpen = false;
+        colaPedidos.close();
 
+        // Damos algo de tiempo para que cierren los threads restantes.
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

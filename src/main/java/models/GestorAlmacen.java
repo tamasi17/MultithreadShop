@@ -29,11 +29,19 @@ public class GestorAlmacen implements Runnable {
 
         while (tienda.isOpen() && !tienda.isColaRecibidosEmpty()) {
             getLogger().log(LogLevel.INFO,
-                    "Gestor "+ idGestor +" preparando pedidos.");
-            tienda.prepararPedido();
-            tienda.marcarParaEnvio();
+                    "Gestor "+ idGestor +" procesando pedidos.");
+
+            Pedido pedido = tienda.prepararPedido();
+
+            // Si no quedan pedidos o se ha interrumpido
+            if (pedido == null){
+                getLogger().log(LogLevel.INFO, "Gestor "+ idGestor +" ha finalizado su jornada");
+                break;
+            }
+
         }
-        getLogger().log(LogLevel.INFO, "Gestor "+ idGestor +" ha finalizado su jornada");
+
+
 
     }
 

@@ -73,4 +73,8 @@ public class ClienteNormal extends Thread implements Cliente {
     public String toString() {
         return "Cliente [" + idCliente + "]";
     }
+
+    public int getID() {
+        return idCliente;
+    }
 }

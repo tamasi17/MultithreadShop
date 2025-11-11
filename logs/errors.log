@@ -1,25 +1,273 @@
-[168] [2025-11-11_00-34-19_690] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 1
-[169] [2025-11-11_00-34-19_738] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 2
-[170] [2025-11-11_00-34-19_788] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 3
-[171] [2025-11-11_00-34-19_839] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 4
-[172] [2025-11-11_00-34-19_889] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 5
-[173] [2025-11-11_00-34-19_939] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 6
-[174] [2025-11-11_00-34-19_990] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 7
-[175] [2025-11-11_00-34-20_042] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 8
-[176] [2025-11-11_00-34-20_092] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 9
-[177] [2025-11-11_00-34-20_142] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 10
-[178] [2025-11-11_00-34-20_192] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 11
-[179] [2025-11-11_00-34-20_244] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 12
-[180] [2025-11-11_00-34-20_295] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 13
-[181] [2025-11-11_00-34-20_347] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 14
-[182] [2025-11-11_00-34-20_397] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 15
-[183] [2025-11-11_00-34-20_448] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 16
-[184] [2025-11-11_00-34-20_499] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 17
-[185] [2025-11-11_00-34-20_550] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 18
-[186] [2025-11-11_00-34-20_601] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 19
-[187] [2025-11-11_00-34-20_651] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 20
-[188] [2025-11-11_00-34-20_702] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 21
-[189] [2025-11-11_00-34-20_753] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 22
-[190] [2025-11-11_00-34-20_804] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 23
-[191] [2025-11-11_00-34-20_854] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 24
-[192] [2025-11-11_00-34-20_906] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a la cola: 25
+[1] [2025-11-11_02-35-33_934] [INFO] [utils.ProductManager.loadFromCsv]: Lista de productos cargada.
+[2] [2025-11-11_02-35-33_945] [TRACE] [models.Tienda.<init>]: Tienda abierta con 50 productos.
+[3] [2025-11-11_02-35-37_074] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 1 a la tienda
+[4] [2025-11-11_02-35-37_075] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 2 a la tienda
+[5] [2025-11-11_02-35-37_075] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 3 a la tienda
+[6] [2025-11-11_02-35-37_075] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 4 a la tienda
+[7] [2025-11-11_02-35-37_076] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 5 a la tienda
+[8] [2025-11-11_02-35-37_076] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 6 a la tienda
+[9] [2025-11-11_02-35-37_077] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 7 a la tienda
+[10] [2025-11-11_02-35-37_078] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 8 a la tienda
+[11] [2025-11-11_02-35-37_078] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 9 a la tienda
+[12] [2025-11-11_02-35-37_079] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 10 a la tienda
+[13] [2025-11-11_02-35-37_079] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 11 a la tienda
+[14] [2025-11-11_02-35-37_079] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 12 a la tienda
+[15] [2025-11-11_02-35-37_080] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 13 a la tienda
+[16] [2025-11-11_02-35-37_080] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 14 a la tienda
+[17] [2025-11-11_02-35-37_080] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 15 a la tienda
+[18] [2025-11-11_02-35-37_081] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 16 a la tienda
+[19] [2025-11-11_02-35-37_082] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 17 a la tienda
+[20] [2025-11-11_02-35-37_083] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 18 a la tienda
+[21] [2025-11-11_02-35-37_084] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 19 a la tienda
+[22] [2025-11-11_02-35-37_084] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 20 a la tienda
+[23] [2025-11-11_02-35-37_085] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 21 a la tienda
+[24] [2025-11-11_02-35-37_085] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 22 a la tienda
+[25] [2025-11-11_02-35-37_085] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 23 a la tienda
+[26] [2025-11-11_02-35-37_086] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 24 a la tienda
+[27] [2025-11-11_02-35-37_086] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 25 a la tienda
+[28] [2025-11-11_02-35-37_087] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 26 a la tienda
+[29] [2025-11-11_02-35-37_087] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 27 a la tienda
+[30] [2025-11-11_02-35-37_087] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 28 a la tienda
+[31] [2025-11-11_02-35-37_088] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 29 a la tienda
+[32] [2025-11-11_02-35-37_088] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 30 a la tienda
+[33] [2025-11-11_02-35-37_089] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 31 a la tienda
+[34] [2025-11-11_02-35-37_089] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 32 a la tienda
+[35] [2025-11-11_02-35-37_089] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 33 a la tienda
+[36] [2025-11-11_02-35-37_090] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 34 a la tienda
+[37] [2025-11-11_02-35-37_090] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 35 a la tienda
+[38] [2025-11-11_02-35-37_090] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 36 a la tienda
+[39] [2025-11-11_02-35-37_091] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 37 a la tienda
+[40] [2025-11-11_02-35-37_091] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 38 a la tienda
+[41] [2025-11-11_02-35-37_092] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 39 a la tienda
+[42] [2025-11-11_02-35-37_092] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 40 a la tienda
+[43] [2025-11-11_02-35-37_093] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 41 a la tienda
+[44] [2025-11-11_02-35-37_093] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 42 a la tienda
+[45] [2025-11-11_02-35-37_094] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 43 a la tienda
+[46] [2025-11-11_02-35-37_094] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 44 a la tienda
+[47] [2025-11-11_02-35-37_094] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 45 a la tienda
+[48] [2025-11-11_02-35-37_095] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 46 a la tienda
+[49] [2025-11-11_02-35-37_095] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 47 a la tienda
+[50] [2025-11-11_02-35-37_095] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 48 a la tienda
+[51] [2025-11-11_02-35-37_096] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 49 a la tienda
+[52] [2025-11-11_02-35-37_096] [TRACE] [Main.lambda$generarClientes$0]: Ha llegado cliente 50 a la tienda
+[53] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[53] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[53] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[53] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[53] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[53] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[53] [2025-11-11_02-35-37_189] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[58] [2025-11-11_02-35-37_190] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[58] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[58] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[58] [2025-11-11_02-35-37_191] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
+[60] [2025-11-11_02-35-37_190] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (30) [ACCESORIO] Base Refrigerante 499 - DataSpeed, 2025: 118.12 euros.
+[60] [2025-11-11_02-35-37_189] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[61] [2025-11-11_02-35-37_190] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
+[63] [2025-11-11_02-35-37_190] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[63] [2025-11-11_02-35-37_191] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
+[64] [2025-11-11_02-35-37_191] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[64] [2025-11-11_02-35-39_096] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[64] [2025-11-11_02-35-37_191] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[65] [2025-11-11_02-35-37_191] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[65] [2025-11-11_02-35-37_191] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[65] [2025-11-11_02-35-37_190] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[65] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[66] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[66] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[66] [2025-11-11_02-35-37_189] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[66] [2025-11-11_02-35-39_095] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[66] [2025-11-11_02-35-37_190] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[66] [2025-11-11_02-35-37_185] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[66] [2025-11-11_02-35-39_098] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[66] [2025-11-11_02-35-39_094] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[66] [2025-11-11_02-35-39_095] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[73] [2025-11-11_02-35-39_101] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[73] [2025-11-11_02-35-39_101] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[73] [2025-11-11_02-35-39_101] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[76] [2025-11-11_02-35-39_102] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[76] [2025-11-11_02-35-39_102] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[76] [2025-11-11_02-35-39_102] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[82] [2025-11-11_02-35-39_103] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
+[84] [2025-11-11_02-35-39_103] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[84] [2025-11-11_02-35-39_103] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[84] [2025-11-11_02-35-39_103] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[84] [2025-11-11_02-35-39_104] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[84] [2025-11-11_02-35-39_104] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
+[84] [2025-11-11_02-35-39_103] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
+[85] [2025-11-11_02-35-39_104] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[85] [2025-11-11_02-35-39_104] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[85] [2025-11-11_02-35-39_104] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[85] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[85] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[87] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[88] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[88] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[89] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
+[89] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[90] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[90] [2025-11-11_02-35-39_105] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
+[102] [2025-11-11_02-35-39_107] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[103] [2025-11-11_02-35-39_107] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[104] [2025-11-11_02-35-39_107] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (15) [MONITOR] Monitor 32 4K - AlphaTech, 2025: 562.26 euros.
+[104] [2025-11-11_02-35-39_107] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[104] [2025-11-11_02-35-39_107] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[105] [2025-11-11_02-35-39_107] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[107] [2025-11-11_02-35-39_108] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[110] [2025-11-11_02-35-39_108] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[111] [2025-11-11_02-35-39_108] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[111] [2025-11-11_02-35-39_108] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[111] [2025-11-11_02-35-39_108] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
+[111] [2025-11-11_02-35-39_108] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[113] [2025-11-11_02-35-39_109] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
+[116] [2025-11-11_02-35-39_109] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[117] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (30) [ACCESORIO] Base Refrigerante 499 - DataSpeed, 2025: 118.12 euros.
+[117] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[117] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
+[117] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[117] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[120] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[119] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[121] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[121] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (39) [AUDIO] Altavoz Bluetooth 525 - SoundBlaze, 2023: 108.91 euros.
+[121] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[122] [2025-11-11_02-35-39_111] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[122] [2025-11-11_02-35-39_110] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[123] [2025-11-11_02-35-39_111] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[128] [2025-11-11_02-35-39_111] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[129] [2025-11-11_02-35-39_111] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (9) [ORDENADOR] Portátil 86 - Connectify, 2024: 1030.55 euros.
+[129] [2025-11-11_02-35-39_111] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[129] [2025-11-11_02-35-39_111] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[132] [2025-11-11_02-35-39_112] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[135] [2025-11-11_02-35-39_112] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[139] [2025-11-11_02-35-39_112] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[140] [2025-11-11_02-35-39_113] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
+[141] [2025-11-11_02-35-39_113] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (12) [ACCESORIO] Hub USB 337 - ChronoLink, 2025: 101.49 euros.
+[142] [2025-11-11_02-35-39_113] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[145] [2025-11-11_02-35-39_113] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[145] [2025-11-11_02-35-39_113] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[146] [2025-11-11_02-35-39_113] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[149] [2025-11-11_02-35-39_114] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[150] [2025-11-11_02-35-39_114] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[152] [2025-11-11_02-35-39_114] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
+[152] [2025-11-11_02-35-39_114] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[152] [2025-11-11_02-35-39_114] [INFO] [models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
+[155] [2025-11-11_02-35-39_148] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 1
+[156] [2025-11-11_02-35-39_931] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 2
+[157] [2025-11-11_02-35-54_824] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 3
+[158] [2025-11-11_02-35-54_828] [INFO] [models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[158] [2025-11-11_02-35-54_828] [INFO] [models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[158] [2025-11-11_02-35-55_999] [INFO] [models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[160] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
+[162] [2025-11-11_02-35-55_999] [INFO] [models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[162] [2025-11-11_02-35-55_999] [INFO] [models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
+[162] [2025-11-11_02-35-55_999] [INFO] [models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[162] [2025-11-11_02-35-55_999] [INFO] [models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
+[162] [2025-11-11_02-35-56_000] [INFO] [models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[174] [2025-11-11_02-35-57_223] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 4
+[179] [2025-11-11_02-35-57_225] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 5
+[180] [2025-11-11_02-35-57_273] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 6
+[181] [2025-11-11_02-35-57_323] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 7
+[182] [2025-11-11_02-35-57_374] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 8
+[183] [2025-11-11_02-35-57_424] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 9
+[184] [2025-11-11_02-35-57_475] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 10
+[185] [2025-11-11_02-35-57_526] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 11
+[186] [2025-11-11_02-35-57_576] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 12
+[187] [2025-11-11_02-35-57_626] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 13
+[188] [2025-11-11_02-35-57_677] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 14
+[189] [2025-11-11_02-35-57_727] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 15
+[190] [2025-11-11_02-35-57_778] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 16
+[191] [2025-11-11_02-35-57_828] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 17
+[192] [2025-11-11_02-35-57_880] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 18
+[193] [2025-11-11_02-35-57_931] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 19
+[194] [2025-11-11_02-35-57_982] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 20
+[195] [2025-11-11_02-35-58_033] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 21
+[196] [2025-11-11_02-35-58_082] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 22
+[197] [2025-11-11_02-35-58_134] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 23
+[198] [2025-11-11_02-35-58_184] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 24
+[199] [2025-11-11_02-35-58_235] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 25
+[200] [2025-11-11_02-35-58_237] [INFO] [models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[200] [2025-11-11_02-35-58_238] [INFO] [models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[202] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
+[202] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[204] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[205] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[206] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[207] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[207] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[207] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
+[207] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
+[208] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[210] [2025-11-11_02-35-58_241] [INFO] [models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
+[209] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
+[209] [2025-11-11_02-35-58_240] [INFO] [models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[209] [2025-11-11_02-35-58_241] [INFO] [models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
+[211] [2025-11-11_02-35-58_241] [INFO] [models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[210] [2025-11-11_02-35-58_241] [INFO] [models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
+[210] [2025-11-11_02-35-58_241] [INFO] [models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[210] [2025-11-11_02-35-58_241] [INFO] [models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
+[220] [2025-11-11_02-35-58_288] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 26
+[221] [2025-11-11_02-35-58_338] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 27
+[222] [2025-11-11_02-35-58_389] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 28
+[223] [2025-11-11_02-35-58_440] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 29
+[224] [2025-11-11_02-35-58_491] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 30
+[225] [2025-11-11_02-35-58_541] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 31
+[226] [2025-11-11_02-35-58_592] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 32
+[227] [2025-11-11_02-35-58_642] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 33
+[228] [2025-11-11_02-35-58_693] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 34
+[229] [2025-11-11_02-35-58_743] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 35
+[230] [2025-11-11_02-35-58_793] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 36
+[231] [2025-11-11_02-35-58_844] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 37
+[232] [2025-11-11_02-35-58_894] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 38
+[233] [2025-11-11_02-35-58_945] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 39
+[234] [2025-11-11_02-35-58_996] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 40
+[235] [2025-11-11_02-35-59_046] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 41
+[236] [2025-11-11_02-35-59_097] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 42
+[237] [2025-11-11_02-35-59_147] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 43
+[238] [2025-11-11_02-35-59_198] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 44
+[239] [2025-11-11_02-35-59_249] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 45
+[240] [2025-11-11_02-35-59_299] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 46
+[241] [2025-11-11_02-35-59_350] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 47
+[242] [2025-11-11_02-35-59_401] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 48
+[243] [2025-11-11_02-35-59_451] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 49
+[244] [2025-11-11_02-35-59_502] [INFO] [models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 50
+[244] [2025-11-11_02-35-59_504] [INFO] [models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[246] [2025-11-11_02-35-59_505] [INFO] [models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[247] [2025-11-11_02-35-59_505] [INFO] [models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[247] [2025-11-11_02-35-59_505] [INFO] [models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[247] [2025-11-11_02-35-59_505] [INFO] [models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[247] [2025-11-11_02-35-59_505] [INFO] [models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[249] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[249] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[250] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
+[250] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[251] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
+[251] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[252] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
+[252] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[253] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
+[254] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
+[255] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[255] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
+[255] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
+[255] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[256] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[256] [2025-11-11_02-35-59_506] [INFO] [models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
+[262] [2025-11-11_02-35-59_508] [INFO] [models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[263] [2025-11-11_02-35-59_508] [INFO] [models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[267] [2025-11-11_02-35-59_509] [INFO] [models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[270] [2025-11-11_02-35-59_509] [INFO] [models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[270] [2025-11-11_02-35-59_509] [INFO] [models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[270] [2025-11-11_02-35-59_509] [INFO] [models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[273] [2025-11-11_02-35-59_509] [INFO] [models.GestorAlmacen.run]: Gestor 7 procesando pedidos.

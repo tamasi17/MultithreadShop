@@ -1,9 +1,10 @@
 package utils;
 
+import models.Pedido;
+
 public interface AccesoGestor {
 
-    void prepararPedido();
-    void marcarParaEnvio();
+    Pedido prepararPedido();
     boolean isOpen();
     boolean isColaRecibidosEmpty();
 }

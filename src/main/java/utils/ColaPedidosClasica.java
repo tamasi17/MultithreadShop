@@ -3,14 +3,12 @@ package utils;
 import log4Mats.LogLevel;
 import models.Estado;
 import models.Pedido;
-
 import java.util.LinkedList;
 import java.util.Queue;
-
 import static logging.LoggerProvider.getLogger;
 
 /**
- * Funciona como un almacen sincronizado en base a una Queue de Pedidos.
+ * Funciona como un almacen sincronizado en base a dos Queues de Pedidos: Recibidos y Procesados.
  *
  * @author mati
  */
@@ -19,13 +17,21 @@ public class ColaPedidosClasica {
 
     private Queue<Pedido> colaRecibidos;
     private Queue<Pedido> colaProcesados;
+    private boolean isOpen;
 
 
     public ColaPedidosClasica() {
         this.colaRecibidos = new LinkedList<>();
         this.colaProcesados = new LinkedList<>();
+        isOpen = true;
     }
 
+
+    /**  CLIENTES
+     * Metodo que añade un pedido a la cola de Recibidos. Max 25 simultaneamente.
+     * Sleep simulando añadir pedido.
+     * @param pedido
+     */
     synchronized public void añadirPedido(Pedido pedido) {
         if (colaRecibidos.size() >= 25) {
             try {
@@ -40,15 +46,18 @@ public class ColaPedidosClasica {
         try {
             Thread.sleep(50);
         } catch (InterruptedException e) {
-            getLogger().log(LogLevel.TRACE, "Añadiendo pedido: " + pedido.getIdPedido());
+            getLogger().log(LogLevel.TRACE, "Cliente: " + Thread.currentThread().toString() +
+                    "\nAñadiendo pedido: " + pedido.getIdPedido());
         }
-
     }
 
-    synchronized public void procesarPedido() {
-
+    /** GESTORES
+     * Metodo que procesa un pedido, pasandolo de Recibidos a Procesados.
+     * Sleep simulando preparacion del pedido.
+     */
+    synchronized public Pedido procesarPedido() {
         // Si la cola esta vacia, se espera
-        if (colaRecibidos.isEmpty()) {
+        while (colaRecibidos.isEmpty()) {
             try {
                 wait();
             } catch (InterruptedException ie) {
@@ -57,27 +66,33 @@ public class ColaPedidosClasica {
             }
         }
 
+        Pedido pedido = moverAProcesados();
+
+        // Si no queda nada en Recibidos y la tienda esta cerrada:
+        if (colaRecibidos.isEmpty() && !this.isOpen) return null;
+
+        notifyAll();
+        return pedido;
+    }
+
+    private Pedido moverAProcesados() {
         // Cambiamos el pedido de estado
         Pedido pedidoEnProceso = colaRecibidos.poll();
         if (pedidoEnProceso != null) {
             pedidoEnProceso.setEstado(Estado.EN_PROCESO);
-
-            try {
-                Thread.sleep(80);
-            } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.TRACE,
-                        "Preparando pedido: " + pedidoEnProceso.getIdPedido());
-            }
             // Pasamos el pedido a procesados
             colaProcesados.add(pedidoEnProceso);
         }
-
-        notifyAll();
+        return pedidoEnProceso;
     }
 
-        synchronized public void enviarProcesado(){
-            // Si la cola esta vacia, se espera
-            if (colaProcesados.isEmpty()) {
+    /** TRANSPORTISTAS
+     * Metodo que transporta un pedido procesado, sacandolo de la lista Procesados.
+     * Sleep para simular transporte.
+     */
+    synchronized public void enviarProcesado(){
+            // Si la cola esta vacia y la tienda sigue abierta, se espera
+            while (colaProcesados.isEmpty() && this.isOpen) {
                 try {
                     wait();
                 } catch (InterruptedException ie) {
@@ -99,6 +114,9 @@ public class ColaPedidosClasica {
                 }
             }
 
+            // Si no quedan Procesados y la tienda esta cerrada:
+            if (colaProcesados.isEmpty() && !this.isOpen) return;
+
             notifyAll();
 
         }
@@ -109,5 +127,16 @@ public class ColaPedidosClasica {
 
     public Queue<Pedido> getColaProcesados() {
         return colaProcesados;
+    }
+
+    public boolean isOpen() {
+        return isOpen;
+    }
+
+    public void close() {
+        isOpen = false;
+        synchronized (this){
+        notifyAll();
+        }
     }
 }
