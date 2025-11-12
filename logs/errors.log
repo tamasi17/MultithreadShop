@@ -1,600 +1,614 @@
-[1] [2025-11-12_02-40-00_782] [INFO] [main.java.utils.ProductManager.loadFromCsv]: Lista de productos cargada.
-[2] [2025-11-12_02-40-00_789] [TRACE] [main.java.models.Tienda.<init>]: Tienda abierta con 50 productos.
-[3] [2025-11-12_02-40-00_792] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 1 a la tienda
-[4] [2025-11-12_02-40-00_793] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 2 a la tienda
-[5] [2025-11-12_02-40-00_793] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 3 a la tienda
-[6] [2025-11-12_02-40-00_794] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 4 a la tienda
-[7] [2025-11-12_02-40-00_794] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 5 a la tienda
-[8] [2025-11-12_02-40-00_796] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 6 a la tienda
-[9] [2025-11-12_02-40-00_796] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 7 a la tienda
-[10] [2025-11-12_02-40-00_797] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 8 a la tienda
-[11] [2025-11-12_02-40-00_797] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 9 a la tienda
-[12] [2025-11-12_02-40-00_798] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 10 a la tienda
-[13] [2025-11-12_02-40-00_798] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 11 a la tienda
-[14] [2025-11-12_02-40-00_799] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 12 a la tienda
-[15] [2025-11-12_02-40-00_799] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 13 a la tienda
-[16] [2025-11-12_02-40-00_800] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 14 a la tienda
-[17] [2025-11-12_02-40-00_800] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 15 a la tienda
-[18] [2025-11-12_02-40-00_801] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 16 a la tienda
-[19] [2025-11-12_02-40-00_802] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 17 a la tienda
-[20] [2025-11-12_02-40-00_803] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 18 a la tienda
-[21] [2025-11-12_02-40-00_803] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 19 a la tienda
-[22] [2025-11-12_02-40-00_804] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 20 a la tienda
-[23] [2025-11-12_02-40-00_804] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 21 a la tienda
-[24] [2025-11-12_02-40-00_804] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 22 a la tienda
-[25] [2025-11-12_02-40-00_805] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 23 a la tienda
-[26] [2025-11-12_02-40-00_805] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 24 a la tienda
-[27] [2025-11-12_02-40-00_806] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 25 a la tienda
-[28] [2025-11-12_02-40-00_806] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 26 a la tienda
-[29] [2025-11-12_02-40-00_806] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 27 a la tienda
-[30] [2025-11-12_02-40-00_807] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 28 a la tienda
-[31] [2025-11-12_02-40-00_807] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 29 a la tienda
-[32] [2025-11-12_02-40-00_808] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 30 a la tienda
-[33] [2025-11-12_02-40-00_808] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 31 a la tienda
-[34] [2025-11-12_02-40-00_809] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 32 a la tienda
-[35] [2025-11-12_02-40-00_809] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 33 a la tienda
-[36] [2025-11-12_02-40-00_810] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 34 a la tienda
-[37] [2025-11-12_02-40-00_810] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 35 a la tienda
-[38] [2025-11-12_02-40-00_811] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 36 a la tienda
-[39] [2025-11-12_02-40-00_811] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 37 a la tienda
-[40] [2025-11-12_02-40-00_811] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 38 a la tienda
-[41] [2025-11-12_02-40-00_812] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 39 a la tienda
-[42] [2025-11-12_02-40-00_812] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 40 a la tienda
-[43] [2025-11-12_02-40-00_813] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 41 a la tienda
-[44] [2025-11-12_02-40-00_813] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 42 a la tienda
-[45] [2025-11-12_02-40-00_813] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 43 a la tienda
-[46] [2025-11-12_02-40-00_814] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 44 a la tienda
-[47] [2025-11-12_02-40-00_814] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 45 a la tienda
-[48] [2025-11-12_02-40-00_815] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 46 a la tienda
-[49] [2025-11-12_02-40-00_815] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 47 a la tienda
-[50] [2025-11-12_02-40-00_815] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 48 a la tienda
-[51] [2025-11-12_02-40-00_816] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 49 a la tienda
-[52] [2025-11-12_02-40-00_816] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 50 a la tienda
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (30) [ACCESORIO] Base Refrigerante 499 - DataSpeed, 2025: 118.12 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
-[53] [2025-11-12_02-40-00_894] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
-[53] [2025-11-12_02-40-00_895] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
-[53] [2025-11-12_02-40-00_896] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
-[53] [2025-11-12_02-40-00_896] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
-[53] [2025-11-12_02-40-00_896] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
-[53] [2025-11-12_02-40-00_896] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
-[53] [2025-11-12_02-40-00_897] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
-[53] [2025-11-12_02-40-00_896] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
-[53] [2025-11-12_02-40-00_896] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
-[53] [2025-11-12_02-40-00_897] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
-[57] [2025-11-12_02-40-00_898] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
-[75] [2025-11-12_02-40-00_900] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
-[77] [2025-11-12_02-40-00_901] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
-[77] [2025-11-12_02-40-00_901] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (48) [MONITOR] Monitor 27p HD - NetForce, 2022: 192.07 euros.
-[77] [2025-11-12_02-40-00_900] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
-[79] [2025-11-12_02-40-00_901] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
-[80] [2025-11-12_02-40-00_901] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
-[80] [2025-11-12_02-40-00_901] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
-[80] [2025-11-12_02-40-00_901] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
-[82] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (28) [ORDENADOR] PC Gaming 170 - SonicWave, 2025: 1860.32 euros.
-[83] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
-[83] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
-[83] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
-[83] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
-[84] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
-[84] [2025-11-12_02-40-00_903] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
-[84] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
-[84] [2025-11-12_02-40-00_903] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
-[84] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
-[84] [2025-11-12_02-40-00_902] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
-[84] [2025-11-12_02-40-00_903] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (39) [AUDIO] Altavoz Bluetooth 525 - SoundBlaze, 2023: 108.91 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (35) [REDES] Adaptador WiFi 409 - ViewEdge, 2024: 83.24 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
-[103] [2025-11-12_02-40-00_905] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (15) [MONITOR] Monitor 32 4K - AlphaTech, 2025: 562.26 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
-[103] [2025-11-12_02-40-00_906] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
-[103] [2025-11-12_02-40-00_907] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
-[103] [2025-11-12_02-40-00_907] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
-[103] [2025-11-12_02-40-00_907] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
-[103] [2025-11-12_02-40-00_907] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (12) [ACCESORIO] Hub USB 337 - ChronoLink, 2025: 101.49 euros.
-[104] [2025-11-12_02-40-00_908] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
-[103] [2025-11-12_02-40-00_907] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
-[104] [2025-11-12_02-40-00_908] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
-[104] [2025-11-12_02-40-00_908] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
-[104] [2025-11-12_02-40-00_908] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
-[105] [2025-11-12_02-40-00_908] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
-[104] [2025-11-12_02-40-00_908] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
-[107] [2025-11-12_02-40-00_909] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
-[115] [2025-11-12_02-40-00_909] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
-[135] [2025-11-12_02-40-00_911] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
-[135] [2025-11-12_02-40-00_911] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
-[135] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
-[135] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
-[136] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
-[136] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
-[135] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
-[136] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (49) [ACCESORIO] Ratón 483 - Immersia, 2022: 99.35 euros.
-[136] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
-[136] [2025-11-12_02-40-00_912] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
-[145] [2025-11-12_02-40-00_930] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
-[145] [2025-11-12_02-40-00_931] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
-[145] [2025-11-12_02-40-00_932] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
-[146] [2025-11-12_02-40-00_932] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
-[147] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
-[149] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
-[150] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
-[150] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
-[153] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
-[153] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
-[153] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
-[153] [2025-11-12_02-40-00_933] [INFO] [main.java.Main.generarTransportistas]: >> Transportistas comienzan jornada
-[153] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
-[154] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
-[154] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
-[154] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
-[155] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
-[155] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
-[154] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
-[155] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
-[155] [2025-11-12_02-40-00_933] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
-[156] [2025-11-12_02-40-00_934] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[156] [2025-11-12_02-40-00_935] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[156] [2025-11-12_02-40-00_934] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[156] [2025-11-12_02-40-00_935] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[156] [2025-11-12_02-40-00_935] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[156] [2025-11-12_02-40-00_934] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[162] [2025-11-12_02-40-00_936] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[162] [2025-11-12_02-40-00_937] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[173] [2025-11-12_02-40-00_938] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[173] [2025-11-12_02-40-00_938] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[174] [2025-11-12_02-40-00_938] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[175] [2025-11-12_02-40-00_938] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[178] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[178] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[178] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[180] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[180] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[182] [2025-11-12_02-40-00_939] [TRACE] [main.java.models.Transportista.<init>]: Transportista 1 ha llegado a la tienda
-[183] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[183] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[183] [2025-11-12_02-40-00_939] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[187] [2025-11-12_02-40-00_941] [TRACE] [main.java.models.Transportista.<init>]: Transportista 2 ha llegado a la tienda
-[188] [2025-11-12_02-40-00_942] [TRACE] [main.java.models.Transportista.<init>]: Transportista 3 ha llegado a la tienda
-[189] [2025-11-12_02-40-00_942] [TRACE] [main.java.models.Transportista.<init>]: Transportista 4 ha llegado a la tienda
-[190] [2025-11-12_02-40-00_943] [TRACE] [main.java.models.Transportista.<init>]: Transportista 5 ha llegado a la tienda
-[191] [2025-11-12_02-40-00_943] [TRACE] [main.java.models.Transportista.<init>]: Transportista 6 ha llegado a la tienda
-[192] [2025-11-12_02-40-00_944] [TRACE] [main.java.models.Transportista.<init>]: Transportista 7 ha llegado a la tienda
-[193] [2025-11-12_02-40-00_944] [TRACE] [main.java.models.Transportista.<init>]: Transportista 8 ha llegado a la tienda
-[194] [2025-11-12_02-40-00_944] [TRACE] [main.java.models.Transportista.<init>]: Transportista 9 ha llegado a la tienda
-[195] [2025-11-12_02-40-00_945] [TRACE] [main.java.models.Transportista.<init>]: Transportista 10 ha llegado a la tienda
-[196] [2025-11-12_02-40-00_951] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 1
-[197] [2025-11-12_02-40-01_003] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 2
-[198] [2025-11-12_02-40-01_054] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 3
-[199] [2025-11-12_02-40-01_105] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 4
-[200] [2025-11-12_02-40-01_157] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 5
-[201] [2025-11-12_02-40-01_207] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 6
-[202] [2025-11-12_02-40-01_258] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 7
-[203] [2025-11-12_02-40-01_309] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 8
-[204] [2025-11-12_02-40-01_359] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 9
-[205] [2025-11-12_02-40-01_411] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 10
-[206] [2025-11-12_02-40-01_462] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 11
-[207] [2025-11-12_02-40-01_513] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 12
-[208] [2025-11-12_02-40-01_564] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 13
-[209] [2025-11-12_02-40-01_614] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 14
-[210] [2025-11-12_02-40-01_664] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 15
-[211] [2025-11-12_02-40-01_715] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 16
-[212] [2025-11-12_02-40-01_766] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 17
-[213] [2025-11-12_02-40-01_816] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 18
-[214] [2025-11-12_02-40-01_867] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 19
-[215] [2025-11-12_02-40-01_917] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 20
-[216] [2025-11-12_02-40-01_968] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 21
-[217] [2025-11-12_02-40-02_020] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 22
-[218] [2025-11-12_02-40-02_070] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 23
-[219] [2025-11-12_02-40-02_121] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 24
-[220] [2025-11-12_02-40-02_171] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 25
-[221] [2025-11-12_02-40-02_173] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 1 pasa a ColaProcesados
-[222] [2025-11-12_02-40-02_173] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
-[222] [2025-11-12_02-40-02_173] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 2 pasa a ColaProcesados
-[224] [2025-11-12_02-40-02_174] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[224] [2025-11-12_02-40-02_174] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 3 pasa a ColaProcesados
-[224] [2025-11-12_02-40-02_174] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
-[227] [2025-11-12_02-40-02_175] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
-[227] [2025-11-12_02-40-02_175] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 4 pasa a ColaProcesados
-[227] [2025-11-12_02-40-02_175] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[230] [2025-11-12_02-40-02_176] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[231] [2025-11-12_02-40-02_176] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 5 pasa a ColaProcesados
-[231] [2025-11-12_02-40-02_176] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
-[233] [2025-11-12_02-40-02_177] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[233] [2025-11-12_02-40-02_177] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
-[234] [2025-11-12_02-40-02_177] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 6 pasa a ColaProcesados
-[236] [2025-11-12_02-40-02_177] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[237] [2025-11-12_02-40-02_177] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 7 pasa a ColaProcesados
-[237] [2025-11-12_02-40-02_177] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
-[239] [2025-11-12_02-40-02_178] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
-[239] [2025-11-12_02-40-02_178] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[239] [2025-11-12_02-40-02_178] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 8 pasa a ColaProcesados
-[242] [2025-11-12_02-40-02_178] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[243] [2025-11-12_02-40-02_179] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 9 pasa a ColaProcesados
-[243] [2025-11-12_02-40-02_179] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
-[245] [2025-11-12_02-40-02_179] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[245] [2025-11-12_02-40-02_179] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
-[247] [2025-11-12_02-40-02_179] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 10 pasa a ColaProcesados
-[248] [2025-11-12_02-40-02_180] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[248] [2025-11-12_02-40-02_180] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 11 pasa a ColaProcesados
-[248] [2025-11-12_02-40-02_180] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
-[251] [2025-11-12_02-40-02_180] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
-[251] [2025-11-12_02-40-02_180] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 12 pasa a ColaProcesados
-[251] [2025-11-12_02-40-02_181] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[254] [2025-11-12_02-40-02_181] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[254] [2025-11-12_02-40-02_181] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
-[254] [2025-11-12_02-40-02_181] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 13 pasa a ColaProcesados
-[257] [2025-11-12_02-40-02_182] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
-[257] [2025-11-12_02-40-02_182] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 14 pasa a ColaProcesados
-[257] [2025-11-12_02-40-02_182] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[260] [2025-11-12_02-40-02_182] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
-[260] [2025-11-12_02-40-02_183] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 15 pasa a ColaProcesados
-[261] [2025-11-12_02-40-02_183] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[263] [2025-11-12_02-40-02_183] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[263] [2025-11-12_02-40-02_183] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
-[263] [2025-11-12_02-40-02_183] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 16 pasa a ColaProcesados
-[266] [2025-11-12_02-40-02_184] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[267] [2025-11-12_02-40-02_184] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
-[267] [2025-11-12_02-40-02_184] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 17 pasa a ColaProcesados
-[269] [2025-11-12_02-40-02_184] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
-[270] [2025-11-12_02-40-02_184] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[270] [2025-11-12_02-40-02_184] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 18 pasa a ColaProcesados
-[272] [2025-11-12_02-40-02_185] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[273] [2025-11-12_02-40-02_185] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
-[273] [2025-11-12_02-40-02_185] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 19 pasa a ColaProcesados
-[275] [2025-11-12_02-40-02_185] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[275] [2025-11-12_02-40-02_185] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
-[275] [2025-11-12_02-40-02_185] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 20 pasa a ColaProcesados
-[278] [2025-11-12_02-40-02_186] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[278] [2025-11-12_02-40-02_186] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
-[280] [2025-11-12_02-40-02_186] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 1 enviado correctamente.
-[280] [2025-11-12_02-40-02_186] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[282] [2025-11-12_02-40-02_267] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 1
-[282] [2025-11-12_02-40-02_267] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 2 enviado correctamente.
-[284] [2025-11-12_02-40-02_349] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 2
-[284] [2025-11-12_02-40-02_349] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 3 enviado correctamente.
-[286] [2025-11-12_02-40-02_431] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 3
-[286] [2025-11-12_02-40-02_431] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 4 enviado correctamente.
-[288] [2025-11-12_02-40-02_513] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 5 enviado correctamente.
-[288] [2025-11-12_02-40-02_513] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 4
-[290] [2025-11-12_02-40-02_595] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 5
-[290] [2025-11-12_02-40-02_595] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 6 enviado correctamente.
-[292] [2025-11-12_02-40-02_677] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 7 enviado correctamente.
-[292] [2025-11-12_02-40-02_677] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 6
-[294] [2025-11-12_02-40-02_760] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 8 enviado correctamente.
-[294] [2025-11-12_02-40-02_760] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 7
-[296] [2025-11-12_02-40-02_842] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 9 enviado correctamente.
-[296] [2025-11-12_02-40-02_842] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 8
-[298] [2025-11-12_02-40-02_924] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 10 enviado correctamente.
-[299] [2025-11-12_02-40-02_924] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 9
-[300] [2025-11-12_02-40-03_006] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 10
-[301] [2025-11-12_02-40-03_056] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 26
-[302] [2025-11-12_02-40-03_106] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 27
-[303] [2025-11-12_02-40-03_158] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 28
-[304] [2025-11-12_02-40-03_208] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 29
-[305] [2025-11-12_02-40-03_258] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 30
-[306] [2025-11-12_02-40-03_310] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 31
-[307] [2025-11-12_02-40-03_361] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 32
-[308] [2025-11-12_02-40-03_412] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 33
-[309] [2025-11-12_02-40-03_464] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 34
-[310] [2025-11-12_02-40-03_515] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 35
-[311] [2025-11-12_02-40-03_565] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 36
-[312] [2025-11-12_02-40-03_615] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 37
-[313] [2025-11-12_02-40-03_665] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 38
-[314] [2025-11-12_02-40-03_716] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 39
-[315] [2025-11-12_02-40-03_767] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 40
-[316] [2025-11-12_02-40-03_818] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 41
-[317] [2025-11-12_02-40-03_867] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 42
-[318] [2025-11-12_02-40-03_919] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 43
-[319] [2025-11-12_02-40-03_970] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 44
-[320] [2025-11-12_02-40-04_021] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 45
-[320] [2025-11-12_02-40-04_021] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 21 pasa a ColaProcesados
-[322] [2025-11-12_02-40-04_022] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 22 pasa a ColaProcesados
-[322] [2025-11-12_02-40-04_022] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
-[324] [2025-11-12_02-40-04_023] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 23 pasa a ColaProcesados
-[324] [2025-11-12_02-40-04_023] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[324] [2025-11-12_02-40-04_023] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
-[327] [2025-11-12_02-40-04_023] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
-[327] [2025-11-12_02-40-04_023] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[327] [2025-11-12_02-40-04_023] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 24 pasa a ColaProcesados
-[330] [2025-11-12_02-40-04_024] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[330] [2025-11-12_02-40-04_024] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 25 pasa a ColaProcesados
-[330] [2025-11-12_02-40-04_024] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
-[333] [2025-11-12_02-40-04_025] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 26 pasa a ColaProcesados
-[333] [2025-11-12_02-40-04_025] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
-[334] [2025-11-12_02-40-04_025] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[336] [2025-11-12_02-40-04_026] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
-[336] [2025-11-12_02-40-04_026] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 27 pasa a ColaProcesados
-[336] [2025-11-12_02-40-04_026] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[339] [2025-11-12_02-40-04_027] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[339] [2025-11-12_02-40-04_027] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 28 pasa a ColaProcesados
-[339] [2025-11-12_02-40-04_027] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
-[342] [2025-11-12_02-40-04_027] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[342] [2025-11-12_02-40-04_027] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
-[344] [2025-11-12_02-40-04_028] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 29 pasa a ColaProcesados
-[345] [2025-11-12_02-40-04_028] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[346] [2025-11-12_02-40-04_028] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
-[346] [2025-11-12_02-40-04_028] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 30 pasa a ColaProcesados
-[348] [2025-11-12_02-40-04_028] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[349] [2025-11-12_02-40-04_028] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
-[349] [2025-11-12_02-40-04_028] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 31 pasa a ColaProcesados
-[351] [2025-11-12_02-40-04_029] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[352] [2025-11-12_02-40-04_029] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
-[352] [2025-11-12_02-40-04_029] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 32 pasa a ColaProcesados
-[354] [2025-11-12_02-40-04_029] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[354] [2025-11-12_02-40-04_029] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
-[356] [2025-11-12_02-40-04_029] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 33 pasa a ColaProcesados
-[357] [2025-11-12_02-40-04_030] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[358] [2025-11-12_02-40-04_030] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
-[358] [2025-11-12_02-40-04_030] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 34 pasa a ColaProcesados
-[360] [2025-11-12_02-40-04_030] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[360] [2025-11-12_02-40-04_030] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
-[362] [2025-11-12_02-40-04_030] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 35 pasa a ColaProcesados
-[363] [2025-11-12_02-40-04_031] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[364] [2025-11-12_02-40-04_031] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 36 pasa a ColaProcesados
-[364] [2025-11-12_02-40-04_031] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
-[366] [2025-11-12_02-40-04_031] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
-[367] [2025-11-12_02-40-04_031] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 37 pasa a ColaProcesados
-[367] [2025-11-12_02-40-04_031] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[369] [2025-11-12_02-40-04_032] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[370] [2025-11-12_02-40-04_032] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
-[370] [2025-11-12_02-40-04_032] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 38 pasa a ColaProcesados
-[372] [2025-11-12_02-40-04_033] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[373] [2025-11-12_02-40-04_033] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
-[373] [2025-11-12_02-40-04_033] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 39 pasa a ColaProcesados
-[375] [2025-11-12_02-40-04_033] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[376] [2025-11-12_02-40-04_034] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 40 pasa a ColaProcesados
-[377] [2025-11-12_02-40-04_034] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
-[378] [2025-11-12_02-40-04_034] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
-[379] [2025-11-12_02-40-04_034] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[380] [2025-11-12_02-40-04_034] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 41 pasa a ColaProcesados
-[381] [2025-11-12_02-40-04_034] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[382] [2025-11-12_02-40-04_035] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
-[382] [2025-11-12_02-40-04_035] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 11 enviado correctamente.
-[384] [2025-11-12_02-40-04_035] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[385] [2025-11-12_02-40-04_116] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 12 enviado correctamente.
-[385] [2025-11-12_02-40-04_116] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 11
-[387] [2025-11-12_02-40-04_198] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 13 enviado correctamente.
-[387] [2025-11-12_02-40-04_198] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 12
-[389] [2025-11-12_02-40-04_280] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 14 enviado correctamente.
-[389] [2025-11-12_02-40-04_281] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 13
-[391] [2025-11-12_02-40-04_363] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 15 enviado correctamente.
-[391] [2025-11-12_02-40-04_363] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 14
-[393] [2025-11-12_02-40-04_446] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 15
-[393] [2025-11-12_02-40-04_446] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 16 enviado correctamente.
-[395] [2025-11-12_02-40-04_530] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 16
-[395] [2025-11-12_02-40-04_530] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 17 enviado correctamente.
-[397] [2025-11-12_02-40-04_614] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 18 enviado correctamente.
-[397] [2025-11-12_02-40-04_614] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 17
-[399] [2025-11-12_02-40-04_697] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 18
-[399] [2025-11-12_02-40-04_697] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 19 enviado correctamente.
-[401] [2025-11-12_02-40-04_781] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 20 enviado correctamente.
-[402] [2025-11-12_02-40-04_781] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 19
-[403] [2025-11-12_02-40-04_862] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 20
-[404] [2025-11-12_02-40-04_912] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 46
-[405] [2025-11-12_02-40-04_963] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 47
-[406] [2025-11-12_02-40-05_013] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 48
-[407] [2025-11-12_02-40-05_065] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 49
-[408] [2025-11-12_02-40-05_116] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 42 pasa a ColaProcesados
-[408] [2025-11-12_02-40-05_116] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 50
-[410] [2025-11-12_02-40-05_119] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 43 pasa a ColaProcesados
-[410] [2025-11-12_02-40-05_119] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
-[412] [2025-11-12_02-40-05_121] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
-[412] [2025-11-12_02-40-05_121] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 44 pasa a ColaProcesados
-[413] [2025-11-12_02-40-05_121] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[415] [2025-11-12_02-40-05_123] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
-[415] [2025-11-12_02-40-05_123] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[415] [2025-11-12_02-40-05_123] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 45 pasa a ColaProcesados
-[418] [2025-11-12_02-40-05_124] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[419] [2025-11-12_02-40-05_124] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
-[419] [2025-11-12_02-40-05_124] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 46 pasa a ColaProcesados
-[421] [2025-11-12_02-40-05_124] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
-[421] [2025-11-12_02-40-05_124] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 47 pasa a ColaProcesados
-[421] [2025-11-12_02-40-05_124] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[424] [2025-11-12_02-40-05_125] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[425] [2025-11-12_02-40-05_125] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
-[425] [2025-11-12_02-40-05_125] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 48 pasa a ColaProcesados
-[427] [2025-11-12_02-40-05_126] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[427] [2025-11-12_02-40-05_126] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
-[428] [2025-11-12_02-40-05_126] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 49 pasa a ColaProcesados
-[430] [2025-11-12_02-40-05_126] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[431] [2025-11-12_02-40-05_126] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
-[431] [2025-11-12_02-40-05_126] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 50 pasa a ColaProcesados
-[433] [2025-11-12_02-40-05_127] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
-[434] [2025-11-12_02-40-05_128] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G16 esperando a procesar pedido
-[435] [2025-11-12_02-40-05_128] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G8 esperando a procesar pedido
-[436] [2025-11-12_02-40-05_129] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G12 esperando a procesar pedido
-[437] [2025-11-12_02-40-05_129] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G13 esperando a procesar pedido
-[438] [2025-11-12_02-40-05_130] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G11 esperando a procesar pedido
-[439] [2025-11-12_02-40-05_131] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G9 esperando a procesar pedido
-[440] [2025-11-12_02-40-05_132] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G18 esperando a procesar pedido
-[441] [2025-11-12_02-40-05_132] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G19 esperando a procesar pedido
-[442] [2025-11-12_02-40-05_133] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G10 esperando a procesar pedido
-[443] [2025-11-12_02-40-05_134] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G17 esperando a procesar pedido
-[444] [2025-11-12_02-40-05_134] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G15 esperando a procesar pedido
-[445] [2025-11-12_02-40-05_134] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 21 enviado correctamente.
-[446] [2025-11-12_02-40-05_216] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 22 enviado correctamente.
-[446] [2025-11-12_02-40-05_216] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 21
-[448] [2025-11-12_02-40-05_298] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 22
-[448] [2025-11-12_02-40-05_298] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 23 enviado correctamente.
-[450] [2025-11-12_02-40-05_382] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 23
-[450] [2025-11-12_02-40-05_382] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 24 enviado correctamente.
-[452] [2025-11-12_02-40-05_465] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 24
-[452] [2025-11-12_02-40-05_465] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 25 enviado correctamente.
-[454] [2025-11-12_02-40-05_549] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 25
-[454] [2025-11-12_02-40-05_549] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 26 enviado correctamente.
-[456] [2025-11-12_02-40-05_631] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 27 enviado correctamente.
-[456] [2025-11-12_02-40-05_631] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 26
-[458] [2025-11-12_02-40-05_713] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 28 enviado correctamente.
-[458] [2025-11-12_02-40-05_713] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 27
-[460] [2025-11-12_02-40-05_797] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 28
-[460] [2025-11-12_02-40-05_797] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 29 enviado correctamente.
-[462] [2025-11-12_02-40-05_880] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 30 enviado correctamente.
-[462] [2025-11-12_02-40-05_880] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 29
-[464] [2025-11-12_02-40-05_962] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 30
-[464] [2025-11-12_02-40-05_962] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G2 esperando a procesar pedido
-[466] [2025-11-12_02-40-05_964] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G1 esperando a procesar pedido
-[467] [2025-11-12_02-40-05_964] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G0 esperando a procesar pedido
-[468] [2025-11-12_02-40-05_965] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G3 esperando a procesar pedido
-[469] [2025-11-12_02-40-05_965] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G4 esperando a procesar pedido
-[470] [2025-11-12_02-40-05_966] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G7 esperando a procesar pedido
-[471] [2025-11-12_02-40-05_966] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G6 esperando a procesar pedido
-[472] [2025-11-12_02-40-05_966] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G5 esperando a procesar pedido
-[473] [2025-11-12_02-40-05_967] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G16 esperando a procesar pedido
-[474] [2025-11-12_02-40-05_967] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G8 esperando a procesar pedido
-[475] [2025-11-12_02-40-05_967] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G12 esperando a procesar pedido
-[476] [2025-11-12_02-40-05_968] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G13 esperando a procesar pedido
-[477] [2025-11-12_02-40-05_968] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G11 esperando a procesar pedido
-[478] [2025-11-12_02-40-05_969] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G9 esperando a procesar pedido
-[479] [2025-11-12_02-40-05_969] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G18 esperando a procesar pedido
-[480] [2025-11-12_02-40-05_969] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G19 esperando a procesar pedido
-[481] [2025-11-12_02-40-05_969] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G10 esperando a procesar pedido
-[482] [2025-11-12_02-40-05_970] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G17 esperando a procesar pedido
-[483] [2025-11-12_02-40-05_970] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G15 esperando a procesar pedido
-[484] [2025-11-12_02-40-05_970] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 31 enviado correctamente.
-[485] [2025-11-12_02-40-06_052] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 32 enviado correctamente.
-[485] [2025-11-12_02-40-06_052] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 31
-[487] [2025-11-12_02-40-06_133] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 32
-[487] [2025-11-12_02-40-06_133] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 33 enviado correctamente.
-[489] [2025-11-12_02-40-06_216] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 33
-[489] [2025-11-12_02-40-06_216] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 34 enviado correctamente.
-[491] [2025-11-12_02-40-06_299] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 35 enviado correctamente.
-[491] [2025-11-12_02-40-06_299] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 34
-[493] [2025-11-12_02-40-06_382] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 35
-[493] [2025-11-12_02-40-06_382] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 36 enviado correctamente.
-[495] [2025-11-12_02-40-06_467] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 37 enviado correctamente.
-[495] [2025-11-12_02-40-06_467] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 36
-[497] [2025-11-12_02-40-06_550] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 38 enviado correctamente.
-[497] [2025-11-12_02-40-06_550] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 37
-[499] [2025-11-12_02-40-06_633] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 38
-[499] [2025-11-12_02-40-06_633] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 39 enviado correctamente.
-[501] [2025-11-12_02-40-06_716] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 40 enviado correctamente.
-[501] [2025-11-12_02-40-06_716] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 39
-[503] [2025-11-12_02-40-06_798] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G2 esperando a procesar pedido
-[503] [2025-11-12_02-40-06_798] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 40
-[505] [2025-11-12_02-40-06_799] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G1 esperando a procesar pedido
-[506] [2025-11-12_02-40-06_799] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G0 esperando a procesar pedido
-[507] [2025-11-12_02-40-06_800] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G3 esperando a procesar pedido
-[508] [2025-11-12_02-40-06_800] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G4 esperando a procesar pedido
-[509] [2025-11-12_02-40-06_801] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G7 esperando a procesar pedido
-[510] [2025-11-12_02-40-06_801] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G6 esperando a procesar pedido
-[511] [2025-11-12_02-40-06_801] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G5 esperando a procesar pedido
-[512] [2025-11-12_02-40-06_802] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G16 esperando a procesar pedido
-[513] [2025-11-12_02-40-06_802] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G8 esperando a procesar pedido
-[514] [2025-11-12_02-40-06_802] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G12 esperando a procesar pedido
-[515] [2025-11-12_02-40-06_803] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G13 esperando a procesar pedido
-[516] [2025-11-12_02-40-06_803] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G11 esperando a procesar pedido
-[517] [2025-11-12_02-40-06_804] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G9 esperando a procesar pedido
-[518] [2025-11-12_02-40-06_804] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G18 esperando a procesar pedido
-[519] [2025-11-12_02-40-06_804] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G19 esperando a procesar pedido
-[520] [2025-11-12_02-40-06_805] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G10 esperando a procesar pedido
-[521] [2025-11-12_02-40-06_805] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G17 esperando a procesar pedido
-[522] [2025-11-12_02-40-06_805] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G15 esperando a procesar pedido
-[523] [2025-11-12_02-40-06_806] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 41 enviado correctamente.
-[524] [2025-11-12_02-40-06_887] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 42 enviado correctamente.
-[524] [2025-11-12_02-40-06_887] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 41
-[526] [2025-11-12_02-40-06_969] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 42
-[526] [2025-11-12_02-40-06_969] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 43 enviado correctamente.
-[528] [2025-11-12_02-40-07_053] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 44 enviado correctamente.
-[528] [2025-11-12_02-40-07_053] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 43
-[530] [2025-11-12_02-40-07_137] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 45 enviado correctamente.
-[530] [2025-11-12_02-40-07_137] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 44
-[532] [2025-11-12_02-40-07_218] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 45
-[532] [2025-11-12_02-40-07_218] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 46 enviado correctamente.
-[534] [2025-11-12_02-40-07_302] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 47 enviado correctamente.
-[534] [2025-11-12_02-40-07_302] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 46
-[536] [2025-11-12_02-40-07_385] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 48 enviado correctamente.
-[536] [2025-11-12_02-40-07_385] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 47
-[538] [2025-11-12_02-40-07_467] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 48
-[538] [2025-11-12_02-40-07_467] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 49 enviado correctamente.
-[540] [2025-11-12_02-40-07_549] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 49
-[540] [2025-11-12_02-40-07_549] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 50 enviado correctamente.
-[542] [2025-11-12_02-40-07_623] [INFO] [main.java.models.Transportista.lambda$new$0]: T9 termina su jornada.
-[543] [2025-11-12_02-40-07_632] [TRACE] [main.java.models.Tienda.transportarPedido]: T10 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[543] [2025-11-12_02-40-07_632] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G2
-[545] [2025-11-12_02-40-07_633] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G1
-[545] [2025-11-12_02-40-07_633] [INFO] [main.java.models.Transportista.lambda$new$0]: T10 termina su jornada.
-[545] [2025-11-12_02-40-07_633] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 ha finalizado su jornada
-[548] [2025-11-12_02-40-07_635] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 ha finalizado su jornada
-[548] [2025-11-12_02-40-07_635] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G0
-[550] [2025-11-12_02-40-07_636] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G3
-[550] [2025-11-12_02-40-07_636] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 ha finalizado su jornada
-[552] [2025-11-12_02-40-07_637] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 ha finalizado su jornada
-[552] [2025-11-12_02-40-07_637] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G4
-[554] [2025-11-12_02-40-07_637] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 ha finalizado su jornada
-[555] [2025-11-12_02-40-07_637] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G7
-[556] [2025-11-12_02-40-07_638] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 ha finalizado su jornada
-[556] [2025-11-12_02-40-07_638] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G6
-[558] [2025-11-12_02-40-07_638] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 ha finalizado su jornada
-[559] [2025-11-12_02-40-07_639] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G5
-[560] [2025-11-12_02-40-07_639] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 ha finalizado su jornada
-[561] [2025-11-12_02-40-07_639] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G16
-[562] [2025-11-12_02-40-07_639] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 ha finalizado su jornada
-[562] [2025-11-12_02-40-07_639] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G8
-[564] [2025-11-12_02-40-07_640] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 ha finalizado su jornada
-[564] [2025-11-12_02-40-07_640] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G12
-[566] [2025-11-12_02-40-07_640] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 ha finalizado su jornada
-[566] [2025-11-12_02-40-07_640] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G13
-[568] [2025-11-12_02-40-07_641] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 ha finalizado su jornada
-[568] [2025-11-12_02-40-07_641] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G11
-[570] [2025-11-12_02-40-07_641] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 ha finalizado su jornada
-[571] [2025-11-12_02-40-07_641] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G9
-[572] [2025-11-12_02-40-07_642] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 ha finalizado su jornada
-[572] [2025-11-12_02-40-07_642] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G18
-[574] [2025-11-12_02-40-07_642] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 ha finalizado su jornada
-[575] [2025-11-12_02-40-07_642] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G19
-[576] [2025-11-12_02-40-07_643] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 ha finalizado su jornada
-[576] [2025-11-12_02-40-07_643] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G10
-[578] [2025-11-12_02-40-07_643] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 ha finalizado su jornada
-[578] [2025-11-12_02-40-07_643] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G17
-[580] [2025-11-12_02-40-07_644] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 ha finalizado su jornada
-[580] [2025-11-12_02-40-07_644] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G15
-[582] [2025-11-12_02-40-07_645] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 ha finalizado su jornada
-[583] [2025-11-12_02-40-07_645] [TRACE] [main.java.models.Tienda.transportarPedido]: T1 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[583] [2025-11-12_02-40-07_645] [TRACE] [main.java.models.Tienda.transportarPedido]: T2 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[585] [2025-11-12_02-40-07_646] [INFO] [main.java.models.Tienda.close]: >>>> Tienda cerrada!
-[586] [2025-11-12_02-40-07_646] [TRACE] [main.java.models.Tienda.transportarPedido]: T3 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[586] [2025-11-12_02-40-07_646] [TRACE] [main.java.models.Tienda.transportarPedido]: T4 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[586] [2025-11-12_02-40-07_646] [TRACE] [main.java.models.Tienda.transportarPedido]: T5 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[587] [2025-11-12_02-40-07_646] [TRACE] [main.java.models.Tienda.transportarPedido]: T6 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[587] [2025-11-12_02-40-07_646] [TRACE] [main.java.models.Tienda.transportarPedido]: T8 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[587] [2025-11-12_02-40-07_646] [TRACE] [main.java.models.Tienda.transportarPedido]: T7 no hay más pedidos para transportar (cola vacía y tienda cerrada).
-[588] [2025-11-12_02-40-07_647] [INFO] [main.java.models.Transportista.lambda$new$0]: T2 termina su jornada.
-[588] [2025-11-12_02-40-07_646] [INFO] [main.java.models.Transportista.lambda$new$0]: T1 termina su jornada.
-[594] [2025-11-12_02-40-07_648] [TRACE] [main.java.Main.trabajadoresSeVanACasa]: Esperando a que terminen Gestores y Transportistas...
-[595] [2025-11-12_02-40-07_648] [INFO] [main.java.models.Transportista.lambda$new$0]: T3 termina su jornada.
-[596] [2025-11-12_02-40-07_648] [INFO] [main.java.models.Transportista.lambda$new$0]: T4 termina su jornada.
-[597] [2025-11-12_02-40-07_648] [INFO] [main.java.models.Transportista.lambda$new$0]: T5 termina su jornada.
-[597] [2025-11-12_02-40-07_648] [INFO] [main.java.models.Transportista.lambda$new$0]: T6 termina su jornada.
-[597] [2025-11-12_02-40-07_648] [INFO] [main.java.models.Transportista.lambda$new$0]: T8 termina su jornada.
-[597] [2025-11-12_02-40-07_648] [INFO] [main.java.models.Transportista.lambda$new$0]: T7 termina su jornada.
+[1] [2025-11-12_19-55-13_819] [INFO] [main.java.utils.ProductManager.loadFromCsv]: Lista de productos cargada.
+[2] [2025-11-12_19-55-13_824] [TRACE] [main.java.models.Tienda.<init>]: Tienda abierta con 50 productos.
+[3] [2025-11-12_19-55-13_826] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 1 a la tienda
+[4] [2025-11-12_19-55-13_826] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 2 a la tienda
+[5] [2025-11-12_19-55-13_826] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 3 a la tienda
+[6] [2025-11-12_19-55-13_827] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 4 a la tienda
+[7] [2025-11-12_19-55-13_827] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 5 a la tienda
+[8] [2025-11-12_19-55-13_831] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 6 a la tienda
+[9] [2025-11-12_19-55-13_831] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 7 a la tienda
+[10] [2025-11-12_19-55-13_832] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 8 a la tienda
+[11] [2025-11-12_19-55-13_832] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 9 a la tienda
+[12] [2025-11-12_19-55-13_832] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 10 a la tienda
+[13] [2025-11-12_19-55-13_833] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 11 a la tienda
+[14] [2025-11-12_19-55-13_833] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 12 a la tienda
+[15] [2025-11-12_19-55-13_833] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 13 a la tienda
+[16] [2025-11-12_19-55-13_834] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 14 a la tienda
+[17] [2025-11-12_19-55-13_835] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 15 a la tienda
+[18] [2025-11-12_19-55-13_835] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 16 a la tienda
+[19] [2025-11-12_19-55-13_836] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 17 a la tienda
+[20] [2025-11-12_19-55-13_837] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 18 a la tienda
+[21] [2025-11-12_19-55-13_837] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 19 a la tienda
+[22] [2025-11-12_19-55-13_838] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 20 a la tienda
+[23] [2025-11-12_19-55-13_838] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 21 a la tienda
+[24] [2025-11-12_19-55-13_838] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 22 a la tienda
+[25] [2025-11-12_19-55-13_838] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 23 a la tienda
+[26] [2025-11-12_19-55-13_839] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 24 a la tienda
+[27] [2025-11-12_19-55-13_839] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 25 a la tienda
+[28] [2025-11-12_19-55-13_839] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 26 a la tienda
+[29] [2025-11-12_19-55-13_840] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 27 a la tienda
+[30] [2025-11-12_19-55-13_840] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 28 a la tienda
+[31] [2025-11-12_19-55-13_840] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 29 a la tienda
+[32] [2025-11-12_19-55-13_841] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 30 a la tienda
+[33] [2025-11-12_19-55-13_841] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 31 a la tienda
+[34] [2025-11-12_19-55-13_841] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 32 a la tienda
+[35] [2025-11-12_19-55-13_841] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 33 a la tienda
+[36] [2025-11-12_19-55-13_842] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 34 a la tienda
+[37] [2025-11-12_19-55-13_842] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 35 a la tienda
+[38] [2025-11-12_19-55-13_842] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 36 a la tienda
+[39] [2025-11-12_19-55-13_843] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 37 a la tienda
+[40] [2025-11-12_19-55-13_843] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 38 a la tienda
+[41] [2025-11-12_19-55-13_844] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 39 a la tienda
+[42] [2025-11-12_19-55-13_844] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 40 a la tienda
+[43] [2025-11-12_19-55-13_845] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 41 a la tienda
+[44] [2025-11-12_19-55-13_845] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 42 a la tienda
+[45] [2025-11-12_19-55-13_845] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 43 a la tienda
+[46] [2025-11-12_19-55-13_846] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 44 a la tienda
+[47] [2025-11-12_19-55-13_846] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 45 a la tienda
+[48] [2025-11-12_19-55-13_846] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 46 a la tienda
+[49] [2025-11-12_19-55-13_847] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 47 a la tienda
+[50] [2025-11-12_19-55-13_847] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 48 a la tienda
+[51] [2025-11-12_19-55-13_847] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 49 a la tienda
+[52] [2025-11-12_19-55-13_848] [TRACE] [main.java.Main.lambda$generarClientes$0]: Ha llegado cliente 50 a la tienda
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (39) [AUDIO] Altavoz Bluetooth 525 - SoundBlaze, 2023: 108.91 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
+[53] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[54] [2025-11-12_19-55-13_922] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[55] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[55] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[55] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[56] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (50) [ORDENADOR] Portátil 240 - ViewEdge, 2023: 1188.26 euros.
+[56] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
+[58] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[56] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[58] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[58] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[57] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (20) [ORDENADOR] Mini PC 237 - NetForce, 2023: 1184.85 euros.
+[58] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[61] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (6) [ALMACENAMIENTO] Disco Duro Externo 575GB - Connectify, 2023: 139.83 euros.
+[65] [2025-11-12_19-55-13_923] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[66] [2025-11-12_19-55-13_924] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[75] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[75] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
+[75] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (31) [MOVIL] Smartphone X631 - HomeLink, 2024: 204.95 euros.
+[75] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[76] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[77] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[78] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[78] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (8) [MOVIL] Móvil A716 - Connectify, 2025: 668.84 euros.
+[79] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[78] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[79] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[78] [2025-11-12_19-55-13_930] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (23) [MOVIL] Móvil Z165 - KeyWave, 2024: 1267.75 euros.
+[81] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[80] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (30) [ACCESORIO] Base Refrigerante 499 - DataSpeed, 2025: 118.12 euros.
+[81] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (37) [ACCESORIO] Teclado 105 - NetForce, 2024: 97.08 euros.
+[80] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[81] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[82] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[81] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (44) [AUDIO] Altavoz Bluetooth 329 - SoundBlaze, 2023: 119.87 euros.
+[82] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[84] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[84] [2025-11-12_19-55-13_931] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[87] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (9) [ORDENADOR] Portátil 86 - Connectify, 2024: 1030.55 euros.
+[88] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[88] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (36) [ACCESORIO] Cargador Rápido 682 - AlphaTech, 2024: 66.63 euros.
+[89] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (34) [REDES] Adaptador WiFi 575 - Immersia, 2024: 157.21 euros.
+[90] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
+[92] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[92] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[93] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (2) [ACCESORIO] Teclado 591 - AlphaTech, 2023: 85.28 euros.
+[94] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (14) [AUDIO] Auriculares 636 - Connectify, 2024: 275.39 euros.
+[95] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
+[94] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (10) [ACCESORIO] Base Refrigerante 149 - ChronoLink, 2024: 91.0 euros.
+[97] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[96] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (32) [ACCESORIO] Ratón 811 - KeyWave, 2025: 68.24 euros.
+[95] [2025-11-12_19-55-13_932] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
+[97] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (13) [REDES] Switch 915 - ChronoLink, 2022: 214.76 euros.
+[97] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (19) [MONITOR] Monitor 21p FullHD - ViewEdge, 2022: 366.14 euros.
+[97] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (16) [MONITOR] Monitor 27 FullHD - TechNova, 2025: 340.95 euros.
+[97] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[98] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (38) [AUDIO] Altavoz Bluetooth 852 - SonicWave, 2022: 127.7 euros.
+[98] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (22) [AUDIO] Altavoz Bluetooth 716 - Connectify, 2022: 158.64 euros.
+[99] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (27) [REDES] Repetidor 674 - TechNova, 2022: 216.28 euros.
+[98] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[100] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[102] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[104] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (47) [AUDIO] Altavoz Bluetooth 820 - HomeLink, 2025: 234.42 euros.
+[107] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (17) [ALMACENAMIENTO] Memoria USB 737GB - Connectify, 2022: 105.87 euros.
+[106] [2025-11-12_19-55-13_933] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[106] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[108] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (30) [ACCESORIO] Base Refrigerante 499 - DataSpeed, 2025: 118.12 euros.
+[110] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (42) [ACCESORIO] Hub USB 604 - GraphiCore, 2022: 37.64 euros.
+[109] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[110] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[110] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (1) [ORDENADOR] Mini PC 219 - DataSpeed, 2023: 1157.64 euros.
+[113] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (33) [MOVIL] Smartphone X957 - Connectify, 2025: 1021.52 euros.
+[113] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (3) [AUDIO] Auriculares 530 - HomeLink, 2023: 223.23 euros.
+[114] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (45) [MOVIL] Tablet Z741 - HomeLink, 2022: 644.22 euros.
+[113] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[113] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[113] [2025-11-12_19-55-13_934] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (26) [ALMACENAMIENTO] SSD 240GB - ViewEdge, 2023: 168.25 euros.
+[114] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[116] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (22) [AUDIO] Altavoz Bluetooth 716 - Connectify, 2022: 158.64 euros.
+[118] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (39) [AUDIO] Altavoz Bluetooth 525 - SoundBlaze, 2023: 108.91 euros.
+[116] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (5) [ACCESORIO] Hub USB 824 - ViewEdge, 2022: 48.01 euros.
+[118] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (22) [AUDIO] Altavoz Bluetooth 716 - Connectify, 2022: 158.64 euros.
+[119] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[120] [2025-11-12_19-55-13_935] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (4) [REDES] Switch 609 - SoundBlaze, 2022: 135.11 euros.
+[124] [2025-11-12_19-55-13_936] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[126] [2025-11-12_19-55-13_936] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (9) [ORDENADOR] Portátil 86 - Connectify, 2024: 1030.55 euros.
+[124] [2025-11-12_19-55-13_936] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (11) [ALMACENAMIENTO] Tarjeta SD 928GB - SoundBlaze, 2024: 236.58 euros.
+[130] [2025-11-12_19-55-13_936] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (24) [MOVIL] Smartphone Z403 - Connectify, 2022: 396.67 euros.
+[132] [2025-11-12_19-55-13_936] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (25) [ACCESORIO] Cargador Rápido 654 - ChronoLink, 2023: 62.54 euros.
+[132] [2025-11-12_19-55-13_936] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (40) [REDES] Repetidor 945 - NetForce, 2024: 202.88 euros.
+[137] [2025-11-12_19-55-13_937] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (29) [ALMACENAMIENTO] Disco Duro Externo 373GB - ChronoLink, 2025: 141.42 euros.
+[136] [2025-11-12_19-55-13_937] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (18) [ALMACENAMIENTO] Memoria USB 585GB - ViewEdge, 2024: 236.06 euros.
+[143] [2025-11-12_19-55-13_937] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (43) [ORDENADOR] PC Gaming 343 - DataSpeed, 2025: 973.02 euros.
+[144] [2025-11-12_19-55-13_937] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (21) [ORDENADOR] Ultrabook 418 - GraphiCore, 2024: 1511.68 euros.
+[146] [2025-11-12_19-55-13_937] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (46) [AUDIO] Micrófono 427 - NetForce, 2022: 184.72 euros.
+[151] [2025-11-12_19-55-13_938] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (41) [ACCESORIO] Hub USB 825 - NetForce, 2024: 59.54 euros.
+[152] [2025-11-12_19-55-13_938] [INFO] [main.java.models.ClienteNormal.elegirArticulos]: Articulo añadido al carrito: (7) [AUDIO] Micrófono 489 - ClickMaster, 2023: 149.52 euros.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.Main.generarTransportistas]: >> Transportistas comienzan jornada
+[159] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
+[159] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
+[160] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
+[160] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
+[160] [2025-11-12_19-55-13_962] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
+[160] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[160] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[161] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
+[161] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[161] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
+[162] [2025-11-12_19-55-13_963] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[162] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
+[162] [2025-11-12_19-55-13_963] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[165] [2025-11-12_19-55-13_964] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[166] [2025-11-12_19-55-13_964] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[167] [2025-11-12_19-55-13_964] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[167] [2025-11-12_19-55-13_964] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[169] [2025-11-12_19-55-13_964] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[171] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[171] [2025-11-12_19-55-13_964] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[173] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[174] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[175] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[176] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[176] [2025-11-12_19-55-13_965] [TRACE] [main.java.models.Transportista.<init>]: Transportista 1 ha llegado a la tienda
+[176] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[176] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[177] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[179] [2025-11-12_19-55-13_965] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[181] [2025-11-12_19-55-13_966] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[181] [2025-11-12_19-55-13_966] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[188] [2025-11-12_19-55-13_966] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[188] [2025-11-12_19-55-13_966] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[201] [2025-11-12_19-55-13_968] [TRACE] [main.java.models.Transportista.<init>]: Transportista 2 ha llegado a la tienda
+[202] [2025-11-12_19-55-13_969] [TRACE] [main.java.models.Transportista.<init>]: Transportista 3 ha llegado a la tienda
+[203] [2025-11-12_19-55-13_969] [TRACE] [main.java.models.Transportista.<init>]: Transportista 4 ha llegado a la tienda
+[204] [2025-11-12_19-55-13_969] [TRACE] [main.java.models.Transportista.<init>]: Transportista 5 ha llegado a la tienda
+[205] [2025-11-12_19-55-13_970] [TRACE] [main.java.models.Transportista.<init>]: Transportista 6 ha llegado a la tienda
+[206] [2025-11-12_19-55-13_970] [TRACE] [main.java.models.Transportista.<init>]: Transportista 7 ha llegado a la tienda
+[207] [2025-11-12_19-55-13_970] [TRACE] [main.java.models.Transportista.<init>]: Transportista 8 ha llegado a la tienda
+[208] [2025-11-12_19-55-13_971] [TRACE] [main.java.models.Transportista.<init>]: Transportista 9 ha llegado a la tienda
+[209] [2025-11-12_19-55-13_971] [TRACE] [main.java.models.Transportista.<init>]: Transportista 10 ha llegado a la tienda
+[210] [2025-11-12_19-55-13_981] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 1
+[211] [2025-11-12_19-55-14_032] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 2
+[212] [2025-11-12_19-55-14_083] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 3
+[213] [2025-11-12_19-55-14_134] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 4
+[214] [2025-11-12_19-55-14_185] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 5
+[215] [2025-11-12_19-55-14_235] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 6
+[216] [2025-11-12_19-55-14_286] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 7
+[217] [2025-11-12_19-55-14_337] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 8
+[218] [2025-11-12_19-55-14_387] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 9
+[219] [2025-11-12_19-55-14_438] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 10
+[220] [2025-11-12_19-55-14_489] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 11
+[221] [2025-11-12_19-55-14_539] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 12
+[222] [2025-11-12_19-55-14_590] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 13
+[223] [2025-11-12_19-55-14_641] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 14
+[224] [2025-11-12_19-55-14_692] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 15
+[225] [2025-11-12_19-55-14_743] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 16
+[226] [2025-11-12_19-55-14_795] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 17
+[227] [2025-11-12_19-55-14_846] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 18
+[228] [2025-11-12_19-55-14_896] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 19
+[229] [2025-11-12_19-55-14_947] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 20
+[230] [2025-11-12_19-55-14_998] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 21
+[231] [2025-11-12_19-55-15_048] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 22
+[232] [2025-11-12_19-55-15_099] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 23
+[233] [2025-11-12_19-55-15_149] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 24
+[234] [2025-11-12_19-55-15_200] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 25
+[235] [2025-11-12_19-55-15_204] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 1 pasa a ColaProcesados
+[236] [2025-11-12_19-55-15_205] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[237] [2025-11-12_19-55-15_205] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 2 pasa a ColaProcesados
+[238] [2025-11-12_19-55-15_206] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[238] [2025-11-12_19-55-15_206] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[239] [2025-11-12_19-55-15_206] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 3 pasa a ColaProcesados
+[241] [2025-11-12_19-55-15_206] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[241] [2025-11-12_19-55-15_207] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[242] [2025-11-12_19-55-15_207] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 4 pasa a ColaProcesados
+[244] [2025-11-12_19-55-15_207] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[244] [2025-11-12_19-55-15_207] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[245] [2025-11-12_19-55-15_207] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 5 pasa a ColaProcesados
+[247] [2025-11-12_19-55-15_208] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[247] [2025-11-12_19-55-15_208] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[249] [2025-11-12_19-55-15_208] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 6 pasa a ColaProcesados
+[250] [2025-11-12_19-55-15_209] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[250] [2025-11-12_19-55-15_209] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[252] [2025-11-12_19-55-15_209] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 7 pasa a ColaProcesados
+[253] [2025-11-12_19-55-15_209] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[254] [2025-11-12_19-55-15_209] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[254] [2025-11-12_19-55-15_209] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 8 pasa a ColaProcesados
+[256] [2025-11-12_19-55-15_210] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[257] [2025-11-12_19-55-15_210] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[257] [2025-11-12_19-55-15_210] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 9 pasa a ColaProcesados
+[259] [2025-11-12_19-55-15_210] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[259] [2025-11-12_19-55-15_210] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 10 pasa a ColaProcesados
+[259] [2025-11-12_19-55-15_210] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
+[262] [2025-11-12_19-55-15_211] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
+[263] [2025-11-12_19-55-15_211] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 11 pasa a ColaProcesados
+[263] [2025-11-12_19-55-15_211] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[265] [2025-11-12_19-55-15_212] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[266] [2025-11-12_19-55-15_212] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
+[266] [2025-11-12_19-55-15_212] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 12 pasa a ColaProcesados
+[268] [2025-11-12_19-55-15_212] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[268] [2025-11-12_19-55-15_212] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
+[269] [2025-11-12_19-55-15_212] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 13 pasa a ColaProcesados
+[271] [2025-11-12_19-55-15_213] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[271] [2025-11-12_19-55-15_213] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
+[272] [2025-11-12_19-55-15_213] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 14 pasa a ColaProcesados
+[274] [2025-11-12_19-55-15_213] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[275] [2025-11-12_19-55-15_214] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[275] [2025-11-12_19-55-15_214] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 15 pasa a ColaProcesados
+[277] [2025-11-12_19-55-15_214] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[277] [2025-11-12_19-55-15_214] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[278] [2025-11-12_19-55-15_214] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 16 pasa a ColaProcesados
+[280] [2025-11-12_19-55-15_214] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[280] [2025-11-12_19-55-15_214] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
+[281] [2025-11-12_19-55-15_214] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 17 pasa a ColaProcesados
+[283] [2025-11-12_19-55-15_215] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[283] [2025-11-12_19-55-15_215] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
+[284] [2025-11-12_19-55-15_215] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 18 pasa a ColaProcesados
+[286] [2025-11-12_19-55-15_215] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[286] [2025-11-12_19-55-15_216] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 19 pasa a ColaProcesados
+[286] [2025-11-12_19-55-15_215] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[289] [2025-11-12_19-55-15_217] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[289] [2025-11-12_19-55-15_217] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[289] [2025-11-12_19-55-15_217] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 20 pasa a ColaProcesados
+[292] [2025-11-12_19-55-15_218] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[292] [2025-11-12_19-55-15_218] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
+[294] [2025-11-12_19-55-15_218] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[294] [2025-11-12_19-55-15_218] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 1 enviado correctamente.
+[296] [2025-11-12_19-55-15_299] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 1
+[296] [2025-11-12_19-55-15_299] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 2 enviado correctamente.
+[298] [2025-11-12_19-55-15_381] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 3 enviado correctamente.
+[298] [2025-11-12_19-55-15_381] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 2
+[300] [2025-11-12_19-55-15_463] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 3
+[300] [2025-11-12_19-55-15_463] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 4 enviado correctamente.
+[302] [2025-11-12_19-55-15_543] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 4
+[302] [2025-11-12_19-55-15_543] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 5 enviado correctamente.
+[304] [2025-11-12_19-55-15_624] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 5
+[304] [2025-11-12_19-55-15_624] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 6 enviado correctamente.
+[306] [2025-11-12_19-55-15_708] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 7 enviado correctamente.
+[306] [2025-11-12_19-55-15_708] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 6
+[308] [2025-11-12_19-55-15_789] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 7
+[308] [2025-11-12_19-55-15_789] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 8 enviado correctamente.
+[310] [2025-11-12_19-55-15_871] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 8
+[310] [2025-11-12_19-55-15_871] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 9 enviado correctamente.
+[312] [2025-11-12_19-55-15_953] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 10 enviado correctamente.
+[312] [2025-11-12_19-55-15_953] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 9
+[314] [2025-11-12_19-55-16_033] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 10
+[315] [2025-11-12_19-55-16_084] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 26
+[316] [2025-11-12_19-55-16_134] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 27
+[317] [2025-11-12_19-55-16_184] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 28
+[318] [2025-11-12_19-55-16_234] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 29
+[319] [2025-11-12_19-55-16_285] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 30
+[320] [2025-11-12_19-55-16_336] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 31
+[321] [2025-11-12_19-55-16_386] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 32
+[322] [2025-11-12_19-55-16_437] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 33
+[323] [2025-11-12_19-55-16_489] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 34
+[324] [2025-11-12_19-55-16_539] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 35
+[325] [2025-11-12_19-55-16_590] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 36
+[326] [2025-11-12_19-55-16_641] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 37
+[327] [2025-11-12_19-55-16_692] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 38
+[328] [2025-11-12_19-55-16_742] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 39
+[329] [2025-11-12_19-55-16_793] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 40
+[330] [2025-11-12_19-55-16_844] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 41
+[331] [2025-11-12_19-55-16_894] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 42
+[332] [2025-11-12_19-55-16_945] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 43
+[333] [2025-11-12_19-55-16_996] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 44
+[334] [2025-11-12_19-55-17_046] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 45
+[335] [2025-11-12_19-55-17_047] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 21 pasa a ColaProcesados
+[336] [2025-11-12_19-55-17_047] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[337] [2025-11-12_19-55-17_047] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 22 pasa a ColaProcesados
+[338] [2025-11-12_19-55-17_048] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[339] [2025-11-12_19-55-17_049] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[339] [2025-11-12_19-55-17_049] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 23 pasa a ColaProcesados
+[341] [2025-11-12_19-55-17_050] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[341] [2025-11-12_19-55-17_050] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[343] [2025-11-12_19-55-17_050] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 24 pasa a ColaProcesados
+[344] [2025-11-12_19-55-17_051] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[345] [2025-11-12_19-55-17_051] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[345] [2025-11-12_19-55-17_051] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 25 pasa a ColaProcesados
+[347] [2025-11-12_19-55-17_052] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[347] [2025-11-12_19-55-17_053] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[349] [2025-11-12_19-55-17_053] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 26 pasa a ColaProcesados
+[350] [2025-11-12_19-55-17_054] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[351] [2025-11-12_19-55-17_055] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[352] [2025-11-12_19-55-17_055] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 27 pasa a ColaProcesados
+[353] [2025-11-12_19-55-17_056] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[354] [2025-11-12_19-55-17_056] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[354] [2025-11-12_19-55-17_056] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 28 pasa a ColaProcesados
+[356] [2025-11-12_19-55-17_058] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[356] [2025-11-12_19-55-17_058] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[357] [2025-11-12_19-55-17_059] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 29 pasa a ColaProcesados
+[359] [2025-11-12_19-55-17_060] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[359] [2025-11-12_19-55-17_060] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 10 procesando pedidos.
+[360] [2025-11-12_19-55-17_060] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 30 pasa a ColaProcesados
+[362] [2025-11-12_19-55-17_061] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[362] [2025-11-12_19-55-17_062] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 procesando pedidos.
+[363] [2025-11-12_19-55-17_062] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 31 pasa a ColaProcesados
+[365] [2025-11-12_19-55-17_063] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[365] [2025-11-12_19-55-17_063] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 procesando pedidos.
+[366] [2025-11-12_19-55-17_063] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 32 pasa a ColaProcesados
+[368] [2025-11-12_19-55-17_064] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[368] [2025-11-12_19-55-17_064] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 procesando pedidos.
+[368] [2025-11-12_19-55-17_065] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 33 pasa a ColaProcesados
+[371] [2025-11-12_19-55-17_066] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[372] [2025-11-12_19-55-17_066] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 34 pasa a ColaProcesados
+[372] [2025-11-12_19-55-17_066] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 procesando pedidos.
+[374] [2025-11-12_19-55-17_068] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 procesando pedidos.
+[375] [2025-11-12_19-55-17_068] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 35 pasa a ColaProcesados
+[375] [2025-11-12_19-55-17_068] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[376] [2025-11-12_19-55-17_069] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[378] [2025-11-12_19-55-17_070] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 procesando pedidos.
+[379] [2025-11-12_19-55-17_070] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 36 pasa a ColaProcesados
+[380] [2025-11-12_19-55-17_071] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[381] [2025-11-12_19-55-17_072] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 procesando pedidos.
+[382] [2025-11-12_19-55-17_072] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 37 pasa a ColaProcesados
+[383] [2025-11-12_19-55-17_073] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[384] [2025-11-12_19-55-17_073] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 procesando pedidos.
+[385] [2025-11-12_19-55-17_073] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 38 pasa a ColaProcesados
+[386] [2025-11-12_19-55-17_074] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[387] [2025-11-12_19-55-17_075] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 procesando pedidos.
+[387] [2025-11-12_19-55-17_075] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 39 pasa a ColaProcesados
+[389] [2025-11-12_19-55-17_076] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[390] [2025-11-12_19-55-17_076] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 procesando pedidos.
+[390] [2025-11-12_19-55-17_076] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 40 pasa a ColaProcesados
+[392] [2025-11-12_19-55-17_077] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[392] [2025-11-12_19-55-17_077] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 procesando pedidos.
+[392] [2025-11-12_19-55-17_077] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 11 enviado correctamente.
+[395] [2025-11-12_19-55-17_079] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[396] [2025-11-12_19-55-17_160] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 11
+[396] [2025-11-12_19-55-17_160] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 12 enviado correctamente.
+[398] [2025-11-12_19-55-17_241] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 12
+[398] [2025-11-12_19-55-17_241] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 13 enviado correctamente.
+[400] [2025-11-12_19-55-17_323] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 14 enviado correctamente.
+[400] [2025-11-12_19-55-17_323] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 13
+[402] [2025-11-12_19-55-17_405] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 14
+[402] [2025-11-12_19-55-17_405] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 15 enviado correctamente.
+[404] [2025-11-12_19-55-17_487] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 15
+[404] [2025-11-12_19-55-17_487] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 16 enviado correctamente.
+[406] [2025-11-12_19-55-17_569] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 16
+[406] [2025-11-12_19-55-17_569] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 17 enviado correctamente.
+[408] [2025-11-12_19-55-17_651] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 18 enviado correctamente.
+[408] [2025-11-12_19-55-17_651] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 17
+[410] [2025-11-12_19-55-17_732] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 18
+[410] [2025-11-12_19-55-17_732] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 19 enviado correctamente.
+[412] [2025-11-12_19-55-17_815] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 19
+[412] [2025-11-12_19-55-17_815] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 20 enviado correctamente.
+[414] [2025-11-12_19-55-17_898] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 20
+[415] [2025-11-12_19-55-17_948] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 46
+[416] [2025-11-12_19-55-17_999] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 47
+[417] [2025-11-12_19-55-18_050] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 48
+[418] [2025-11-12_19-55-18_100] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 49
+[419] [2025-11-12_19-55-18_151] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 41 pasa a ColaProcesados
+[419] [2025-11-12_19-55-18_151] [INFO] [main.java.models.Tienda.enviarPedido]: Pedido añadido a ColaRecibidos: 50
+[421] [2025-11-12_19-55-18_152] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 42 pasa a ColaProcesados
+[421] [2025-11-12_19-55-18_152] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 procesando pedidos.
+[423] [2025-11-12_19-55-18_153] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 procesando pedidos.
+[424] [2025-11-12_19-55-18_153] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 43 pasa a ColaProcesados
+[424] [2025-11-12_19-55-18_153] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[425] [2025-11-12_19-55-18_153] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[427] [2025-11-12_19-55-18_154] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[428] [2025-11-12_19-55-18_154] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 44 pasa a ColaProcesados
+[428] [2025-11-12_19-55-18_154] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[430] [2025-11-12_19-55-18_154] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 procesando pedidos.
+[430] [2025-11-12_19-55-18_154] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 45 pasa a ColaProcesados
+[432] [2025-11-12_19-55-18_155] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[433] [2025-11-12_19-55-18_155] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 procesando pedidos.
+[434] [2025-11-12_19-55-18_155] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 46 pasa a ColaProcesados
+[435] [2025-11-12_19-55-18_155] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[436] [2025-11-12_19-55-18_156] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 47 pasa a ColaProcesados
+[436] [2025-11-12_19-55-18_155] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 procesando pedidos.
+[438] [2025-11-12_19-55-18_156] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 procesando pedidos.
+[438] [2025-11-12_19-55-18_156] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[439] [2025-11-12_19-55-18_156] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 48 pasa a ColaProcesados
+[441] [2025-11-12_19-55-18_156] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[442] [2025-11-12_19-55-18_157] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 procesando pedidos.
+[442] [2025-11-12_19-55-18_157] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 49 pasa a ColaProcesados
+[444] [2025-11-12_19-55-18_157] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[444] [2025-11-12_19-55-18_157] [INFO] [main.java.utils.ColaPedidosClasica.procesarPedido]: Pedido 50 pasa a ColaProcesados
+[444] [2025-11-12_19-55-18_157] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 procesando pedidos.
+[447] [2025-11-12_19-55-18_158] [INFO] [main.java.models.Tienda.prepararPedido]: Preparando pedido en Tienda
+[448] [2025-11-12_19-55-18_159] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G8 esperando a procesar pedido
+[449] [2025-11-12_19-55-18_159] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G10 esperando a procesar pedido
+[450] [2025-11-12_19-55-18_159] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G11 esperando a procesar pedido
+[451] [2025-11-12_19-55-18_160] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G13 esperando a procesar pedido
+[452] [2025-11-12_19-55-18_160] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G12 esperando a procesar pedido
+[453] [2025-11-12_19-55-18_160] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G16 esperando a procesar pedido
+[454] [2025-11-12_19-55-18_160] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G17 esperando a procesar pedido
+[455] [2025-11-12_19-55-18_160] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G18 esperando a procesar pedido
+[456] [2025-11-12_19-55-18_161] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G14 esperando a procesar pedido
+[457] [2025-11-12_19-55-18_161] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G19 esperando a procesar pedido
+[458] [2025-11-12_19-55-18_161] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G15 esperando a procesar pedido
+[459] [2025-11-12_19-55-18_161] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 21 enviado correctamente.
+[460] [2025-11-12_19-55-18_243] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 21
+[460] [2025-11-12_19-55-18_243] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 22 enviado correctamente.
+[462] [2025-11-12_19-55-18_325] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 23 enviado correctamente.
+[462] [2025-11-12_19-55-18_325] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 22
+[464] [2025-11-12_19-55-18_408] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 23
+[464] [2025-11-12_19-55-18_408] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 24 enviado correctamente.
+[466] [2025-11-12_19-55-18_489] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 24
+[466] [2025-11-12_19-55-18_489] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 25 enviado correctamente.
+[468] [2025-11-12_19-55-18_571] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 25
+[468] [2025-11-12_19-55-18_571] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 26 enviado correctamente.
+[470] [2025-11-12_19-55-18_653] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 26
+[470] [2025-11-12_19-55-18_653] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 27 enviado correctamente.
+[472] [2025-11-12_19-55-18_735] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 28 enviado correctamente.
+[472] [2025-11-12_19-55-18_735] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 27
+[474] [2025-11-12_19-55-18_817] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 29 enviado correctamente.
+[474] [2025-11-12_19-55-18_817] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 28
+[476] [2025-11-12_19-55-18_897] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 29
+[476] [2025-11-12_19-55-18_897] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 30 enviado correctamente.
+[478] [2025-11-12_19-55-18_980] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 30
+[478] [2025-11-12_19-55-18_980] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G4 esperando a procesar pedido
+[480] [2025-11-12_19-55-18_981] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G6 esperando a procesar pedido
+[481] [2025-11-12_19-55-18_982] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G2 esperando a procesar pedido
+[482] [2025-11-12_19-55-18_983] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G5 esperando a procesar pedido
+[483] [2025-11-12_19-55-18_984] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G1 esperando a procesar pedido
+[484] [2025-11-12_19-55-18_984] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G3 esperando a procesar pedido
+[485] [2025-11-12_19-55-18_985] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G0 esperando a procesar pedido
+[486] [2025-11-12_19-55-18_986] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G7 esperando a procesar pedido
+[487] [2025-11-12_19-55-18_987] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G8 esperando a procesar pedido
+[488] [2025-11-12_19-55-18_988] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G10 esperando a procesar pedido
+[489] [2025-11-12_19-55-18_988] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G11 esperando a procesar pedido
+[490] [2025-11-12_19-55-18_989] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G13 esperando a procesar pedido
+[491] [2025-11-12_19-55-18_990] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G12 esperando a procesar pedido
+[492] [2025-11-12_19-55-18_990] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G16 esperando a procesar pedido
+[493] [2025-11-12_19-55-18_991] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G17 esperando a procesar pedido
+[494] [2025-11-12_19-55-18_992] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G18 esperando a procesar pedido
+[495] [2025-11-12_19-55-18_993] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G14 esperando a procesar pedido
+[496] [2025-11-12_19-55-18_994] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G19 esperando a procesar pedido
+[497] [2025-11-12_19-55-18_994] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G15 esperando a procesar pedido
+[498] [2025-11-12_19-55-18_995] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 31 enviado correctamente.
+[499] [2025-11-12_19-55-19_077] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 31
+[499] [2025-11-12_19-55-19_077] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 32 enviado correctamente.
+[501] [2025-11-12_19-55-19_159] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 33 enviado correctamente.
+[501] [2025-11-12_19-55-19_159] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 32
+[503] [2025-11-12_19-55-19_240] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 33
+[503] [2025-11-12_19-55-19_240] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 34 enviado correctamente.
+[505] [2025-11-12_19-55-19_321] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 34
+[505] [2025-11-12_19-55-19_321] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 35 enviado correctamente.
+[507] [2025-11-12_19-55-19_405] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 35
+[507] [2025-11-12_19-55-19_405] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 36 enviado correctamente.
+[509] [2025-11-12_19-55-19_488] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 36
+[509] [2025-11-12_19-55-19_488] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 37 enviado correctamente.
+[511] [2025-11-12_19-55-19_569] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 38 enviado correctamente.
+[511] [2025-11-12_19-55-19_569] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 37
+[513] [2025-11-12_19-55-19_651] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 38
+[513] [2025-11-12_19-55-19_651] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 39 enviado correctamente.
+[515] [2025-11-12_19-55-19_732] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 39
+[515] [2025-11-12_19-55-19_732] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 40 enviado correctamente.
+[517] [2025-11-12_19-55-19_814] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G4 esperando a procesar pedido
+[517] [2025-11-12_19-55-19_814] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 40
+[519] [2025-11-12_19-55-19_814] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G6 esperando a procesar pedido
+[520] [2025-11-12_19-55-19_815] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G2 esperando a procesar pedido
+[521] [2025-11-12_19-55-19_815] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G5 esperando a procesar pedido
+[522] [2025-11-12_19-55-19_815] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G1 esperando a procesar pedido
+[523] [2025-11-12_19-55-19_816] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G3 esperando a procesar pedido
+[524] [2025-11-12_19-55-19_816] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G0 esperando a procesar pedido
+[525] [2025-11-12_19-55-19_816] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G7 esperando a procesar pedido
+[526] [2025-11-12_19-55-19_817] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G8 esperando a procesar pedido
+[527] [2025-11-12_19-55-19_817] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G10 esperando a procesar pedido
+[528] [2025-11-12_19-55-19_817] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G11 esperando a procesar pedido
+[529] [2025-11-12_19-55-19_818] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G13 esperando a procesar pedido
+[530] [2025-11-12_19-55-19_818] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G12 esperando a procesar pedido
+[531] [2025-11-12_19-55-19_818] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G16 esperando a procesar pedido
+[532] [2025-11-12_19-55-19_819] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G17 esperando a procesar pedido
+[533] [2025-11-12_19-55-19_819] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G18 esperando a procesar pedido
+[534] [2025-11-12_19-55-19_820] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G14 esperando a procesar pedido
+[535] [2025-11-12_19-55-19_820] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G19 esperando a procesar pedido
+[536] [2025-11-12_19-55-19_820] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: G15 esperando a procesar pedido
+[537] [2025-11-12_19-55-19_821] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 41 enviado correctamente.
+[538] [2025-11-12_19-55-19_902] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 41
+[538] [2025-11-12_19-55-19_902] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 42 enviado correctamente.
+[540] [2025-11-12_19-55-19_983] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 42
+[540] [2025-11-12_19-55-19_983] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 43 enviado correctamente.
+[542] [2025-11-12_19-55-20_065] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 43
+[542] [2025-11-12_19-55-20_065] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 44 enviado correctamente.
+[544] [2025-11-12_19-55-20_148] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 45 enviado correctamente.
+[544] [2025-11-12_19-55-20_148] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 44
+[546] [2025-11-12_19-55-20_230] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 45
+[546] [2025-11-12_19-55-20_230] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 46 enviado correctamente.
+[548] [2025-11-12_19-55-20_312] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 47 enviado correctamente.
+[548] [2025-11-12_19-55-20_312] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 46
+[550] [2025-11-12_19-55-20_395] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 47
+[550] [2025-11-12_19-55-20_395] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 48 enviado correctamente.
+[552] [2025-11-12_19-55-20_476] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 49 enviado correctamente.
+[552] [2025-11-12_19-55-20_476] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 48
+[554] [2025-11-12_19-55-20_559] [INFO] [main.java.models.Tienda.transportarPedido]: Transportando pedido: 49
+[554] [2025-11-12_19-55-20_559] [INFO] [main.java.utils.ColaPedidosClasica.transportarProcesado]: Pedido 50 enviado correctamente.
+[556] [2025-11-12_19-55-20_632] [INFO] [main.java.models.Transportista.lambda$new$0]: T9 termina su jornada.
+[557] [2025-11-12_19-55-20_642] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G4
+[557] [2025-11-12_19-55-20_642] [TRACE] [main.java.models.Tienda.transportarPedido]: T10 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[559] [2025-11-12_19-55-20_643] [INFO] [main.java.models.Transportista.lambda$new$0]: T10 termina su jornada.
+[560] [2025-11-12_19-55-20_643] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G6
+[560] [2025-11-12_19-55-20_643] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 5 ha finalizado su jornada
+[562] [2025-11-12_19-55-20_643] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G2
+[562] [2025-11-12_19-55-20_643] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 7 ha finalizado su jornada
+[564] [2025-11-12_19-55-20_644] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 3 ha finalizado su jornada
+[565] [2025-11-12_19-55-20_644] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G5
+[566] [2025-11-12_19-55-20_644] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 6 ha finalizado su jornada
+[566] [2025-11-12_19-55-20_644] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G1
+[568] [2025-11-12_19-55-20_645] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G3
+[568] [2025-11-12_19-55-20_645] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 2 ha finalizado su jornada
+[570] [2025-11-12_19-55-20_646] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G0
+[570] [2025-11-12_19-55-20_646] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 4 ha finalizado su jornada
+[572] [2025-11-12_19-55-20_646] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 1 ha finalizado su jornada
+[572] [2025-11-12_19-55-20_646] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G7
+[574] [2025-11-12_19-55-20_646] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 8 ha finalizado su jornada
+[575] [2025-11-12_19-55-20_646] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G8
+[576] [2025-11-12_19-55-20_647] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 9 ha finalizado su jornada
+[576] [2025-11-12_19-55-20_647] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G10
+[578] [2025-11-12_19-55-20_648] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G11
+[578] [2025-11-12_19-55-20_648] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 11 ha finalizado su jornada
+[580] [2025-11-12_19-55-20_648] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 12 ha finalizado su jornada
+[580] [2025-11-12_19-55-20_648] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G13
+[582] [2025-11-12_19-55-20_649] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 14 ha finalizado su jornada
+[582] [2025-11-12_19-55-20_649] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G12
+[584] [2025-11-12_19-55-20_649] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 13 ha finalizado su jornada
+[585] [2025-11-12_19-55-20_649] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G16
+[586] [2025-11-12_19-55-20_650] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 17 ha finalizado su jornada
+[586] [2025-11-12_19-55-20_650] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G17
+[588] [2025-11-12_19-55-20_650] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 18 ha finalizado su jornada
+[589] [2025-11-12_19-55-20_650] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G18
+[590] [2025-11-12_19-55-20_650] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 19 ha finalizado su jornada
+[590] [2025-11-12_19-55-20_650] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G14
+[592] [2025-11-12_19-55-20_651] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 15 ha finalizado su jornada
+[593] [2025-11-12_19-55-20_651] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G19
+[594] [2025-11-12_19-55-20_651] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 20 ha finalizado su jornada
+[594] [2025-11-12_19-55-20_651] [TRACE] [main.java.utils.ColaPedidosClasica.procesarPedido]: Gestor para, la tienda esta cerrando: G15
+[596] [2025-11-12_19-55-20_652] [INFO] [main.java.models.GestorAlmacen.run]: Gestor 16 ha finalizado su jornada
+[597] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T2 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[597] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T3 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[597] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T1 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[598] [2025-11-12_19-55-20_652] [INFO] [main.java.models.Tienda.close]: >>>> Tienda cerrada!
+[597] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T5 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[597] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T4 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[598] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T6 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[599] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T8 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[598] [2025-11-12_19-55-20_652] [TRACE] [main.java.models.Tienda.transportarPedido]: T7 no hay más pedidos para transportar (cola vacía y tienda cerrada).
+[600] [2025-11-12_19-55-20_653] [INFO] [main.java.models.Transportista.lambda$new$0]: T2 termina su jornada.
+[601] [2025-11-12_19-55-20_653] [INFO] [main.java.models.Transportista.lambda$new$0]: T3 termina su jornada.
+[603] [2025-11-12_19-55-20_653] [INFO] [main.java.models.Transportista.lambda$new$0]: T1 termina su jornada.
+[607] [2025-11-12_19-55-20_654] [INFO] [main.java.models.Transportista.lambda$new$0]: T4 termina su jornada.
+[607] [2025-11-12_19-55-20_653] [INFO] [main.java.models.Transportista.lambda$new$0]: T5 termina su jornada.
+[607] [2025-11-12_19-55-20_653] [TRACE] [main.java.Main.trabajadoresSeVanACasa]: Esperando a que terminen Gestores y Transportistas...
+[608] [2025-11-12_19-55-20_654] [INFO] [main.java.models.Transportista.lambda$new$0]: T6 termina su jornada.
+[609] [2025-11-12_19-55-20_654] [INFO] [main.java.models.Transportista.lambda$new$0]: T8 termina su jornada.
+[614] [2025-11-12_19-55-20_654] [INFO] [main.java.models.Transportista.lambda$new$0]: T7 termina su jornada.
