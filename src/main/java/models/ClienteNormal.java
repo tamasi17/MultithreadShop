@@ -1,14 +1,12 @@
-package models;
+package main.java.models;
 
-import log4Mats.LogLevel;
-import utils.AccesoCliente;
-import utils.Cliente;
+import main.java.logging.LogLevel;
+import main.java.utils.AccesoCliente;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import static logging.LoggerProvider.getLogger;
+import static main.java.logging.LoggerProvider.getLogger;
 
 /**
  * Define un Cliente, extiende Thread.
@@ -56,16 +54,14 @@ public class ClienteNormal extends Thread implements Cliente {
 
             // Comprobacion de stock del articuloElegido
             while (productosDisponibles.get(articuloElegido).idProducto < 0) {
-                getLogger().log(LogLevel.ERROR,
-                        "Product out of stock: " + productosDisponibles.get(articuloElegido).nombre
+                getLogger().error("Product out of stock: " + productosDisponibles.get(articuloElegido).nombre
                                 + " > Choosing another.");
                 articuloElegido = random.nextInt(productosDisponibles.size());
             }
 
             // Añadimos articuloElegido al carrito del pedido:
             carrito.add(productosDisponibles.get(articuloElegido));
-            getLogger().log(LogLevel.INFO,
-                    "Articulo añadido al carrito: " + productosDisponibles.get(articuloElegido).toString());
+            getLogger().info("Articulo añadido al carrito: " + productosDisponibles.get(articuloElegido).toString());
         }
     }
 

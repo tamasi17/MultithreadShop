@@ -1,10 +1,8 @@
-package utils;
-
-import models.Producto;
-
-import java.util.List;
+package main.java.utils;
 
 public interface AccesoTransportista {
 
     public void transportarPedido();
+    boolean isOpen();
+    boolean isColaProcesadosEmpty();
 }

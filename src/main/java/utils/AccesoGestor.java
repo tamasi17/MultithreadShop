@@ -1,6 +1,6 @@
-package utils;
+package main.java.utils;
 
-import models.Pedido;
+import main.java.models.Pedido;
 
 public interface AccesoGestor {
 

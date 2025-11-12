@@ -1,7 +1,6 @@
-package models;
+package main.java.models;
 
-import utils.AccesoCliente;
-import utils.Cliente;
+import main.java.utils.AccesoCliente;
 
 import java.util.Random;
 

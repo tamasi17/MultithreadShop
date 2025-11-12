@@ -1,4 +1,4 @@
-package models;
+package main.java.models;
 
 /**
  * Define el estado de un pedido.

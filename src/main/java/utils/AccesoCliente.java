@@ -1,6 +1,6 @@
-package utils;
+package main.java.utils;
 
-import models.Producto;
+import main.java.models.Producto;
 
 import java.util.List;
 

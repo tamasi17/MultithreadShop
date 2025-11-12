@@ -1,13 +1,15 @@
-package models;
+package main.java.models;
 
-import log4Mats.LogLevel;
-import utils.*;
+
+import main.java.logging.LogLevel;
+import main.java.utils.*;
 
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 
-import static logging.LoggerProvider.getLogger;
+import static main.java.logging.LoggerProvider.getLogger;
+
 
 /**
  * Clase para hacer el setup de los productos disponibles.
@@ -38,31 +40,46 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
     }
 
 
-
-
+    /** CLIENTES
+     * Metodo que envia un pedido a la ColaRecibidos
+     * @param carrito
+     */
     @Override
     public void enviarPedido(List<Producto> carrito) {
         Pedido pedido = new Pedido(carrito);
         colaPedidos.añadirPedido(pedido);
-        getLogger().log(LogLevel.INFO, "Pedido añadido a ColaRecibidos: "+ pedido.getIdPedido());
+        getLogger().info("Pedido añadido a ColaRecibidos: "+ pedido.getIdPedido());
     }
 
+    /** GESTORES
+     * Procesa un pedido de la cola de Recibidos
+     * @return Pedido preparado
+     */
     public Pedido prepararPedido(){
+        getLogger().info("Preparando pedido en Tienda");
         return colaPedidos.procesarPedido();
     }
 
 
     public void transportarPedido(){
 
+        Pedido enviado = colaPedidos.transportarProcesado();
+        if (enviado == null) {
+            getLogger().trace(Thread.currentThread().getName() +
+                    " no hay más pedidos para transportar (cola vacía y tienda cerrada).");
+            return;
+        }
+        getLogger().info("Transportando pedido: "+ enviado.getIdPedido());
+
         try {
             Thread.sleep(70);
         } catch (InterruptedException ie) {
             System.err.println(ie.getLocalizedMessage());
-            getLogger().log(LogLevel.INFO, "Transportando pedido: "+" IDPEDIDO AQUI");
+
         }
     }
 
-    public void muestraPedidos(){
+    public void muestraRecibidos(){
         System.out.println("========================");
         for (Pedido p : colaPedidos.getColaRecibidos()) {
             System.out.println(p.toString());
@@ -90,14 +107,14 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
     }
 
     public void close(){
-        isOpen = false;
-        colaPedidos.close();
-
         // Damos algo de tiempo para que cierren los threads restantes.
         try {
-            Thread.sleep(100);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        isOpen = false;
+        colaPedidos.close();
+        getLogger().info(">>>> Tienda cerrada!");
     }
 }

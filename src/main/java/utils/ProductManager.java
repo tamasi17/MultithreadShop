@@ -1,4 +1,4 @@
-package utils;
+package main.java.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,10 +9,10 @@ import java.util.List;
 import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
-import static logging.LoggerProvider.getLogger;
+import static main.java.logging.LoggerProvider.getLogger;
 
-import log4Mats.LogLevel;
-import models.Producto;
+import main.java.logging.LogLevel;
+import main.java.models.Producto;
 
 
 /**

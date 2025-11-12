@@ -1,10 +1,10 @@
-package models;
+package main.java.models;
 
-import log4Mats.LogLevel;
-import utils.AccesoCliente;
-import utils.AccesoGestor;
+import main.java.logging.LogLevel;
+import main.java.utils.AccesoGestor;
 
-import static logging.LoggerProvider.getLogger;
+import static main.java.logging.LoggerProvider.getLogger;
+
 
 /**
  * Clase que define un gestor de almacen, implementa Runnable.
@@ -28,14 +28,13 @@ public class GestorAlmacen implements Runnable {
     public void run() {
 
         while (tienda.isOpen() && !tienda.isColaRecibidosEmpty()) {
-            getLogger().log(LogLevel.INFO,
-                    "Gestor "+ idGestor +" procesando pedidos.");
+            getLogger().info("Gestor "+ idGestor +" procesando pedidos.");
 
             Pedido pedido = tienda.prepararPedido();
 
             // Si no quedan pedidos o se ha interrumpido
             if (pedido == null){
-                getLogger().log(LogLevel.INFO, "Gestor "+ idGestor +" ha finalizado su jornada");
+                getLogger().info("Gestor "+ idGestor +" ha finalizado su jornada");
                 break;
             }
 

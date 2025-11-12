@@ -2,6 +2,6 @@
   "status": "INFO",
   "filePath": "logs/",
   "fileName": "errors.log",
-  "maxFileSize": 50000,
+  "maxFileSize": 100000,
   "pattern": "%d [%s] %m"
 }

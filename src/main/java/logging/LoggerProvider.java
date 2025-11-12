@@ -1,7 +1,4 @@
-package logging;
-
-import log4Mats.LogManager;
-import log4Mats.Logger;
+package main.java.logging;
 
 import java.io.File;
 

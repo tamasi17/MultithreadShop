@@ -1,11 +1,14 @@
-package utils;
+package main.java.utils;
 
-import log4Mats.LogLevel;
-import models.Estado;
-import models.Pedido;
+
+
+import main.java.models.Estado;
+import main.java.logging.LogLevel;
+import main.java.models.Pedido;
+
 import java.util.LinkedList;
 import java.util.Queue;
-import static logging.LoggerProvider.getLogger;
+import static main.java.logging.LoggerProvider.getLogger;
 
 /**
  * Funciona como un almacen sincronizado en base a dos Queues de Pedidos: Recibidos y Procesados.
@@ -33,12 +36,11 @@ public class ColaPedidosClasica {
      * @param pedido
      */
     synchronized public void añadirPedido(Pedido pedido) {
-        if (colaRecibidos.size() >= 25) {
+        while (colaRecibidos.size() >= 25) {
             try {
                 wait();
             } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.ERROR,
-                        "Cola llena, cliente esperando: " + Thread.currentThread().toString());
+                getLogger().error("Cola llena, cliente esperando: " + Thread.currentThread().toString());
             }
         }
         colaRecibidos.add(pedido);
@@ -46,9 +48,11 @@ public class ColaPedidosClasica {
         try {
             Thread.sleep(50);
         } catch (InterruptedException e) {
-            getLogger().log(LogLevel.TRACE, "Cliente: " + Thread.currentThread().toString() +
+            getLogger().trace("Cliente: " + Thread.currentThread().toString() +
                     "\nAñadiendo pedido: " + pedido.getIdPedido());
         }
+
+        notifyAll();
     }
 
     /** GESTORES
@@ -58,67 +62,69 @@ public class ColaPedidosClasica {
     synchronized public Pedido procesarPedido() {
         // Si la cola esta vacia, se espera
         while (colaRecibidos.isEmpty()) {
+
+            if (!this.isOpen) {
+                // Si esta cerrada, gestor para.
+                getLogger().trace("Gestor para, la tienda esta cerrando: " + Thread.currentThread().getName());
+                return null;
+            }
+
             try {
+                getLogger().trace(Thread.currentThread().getName() +" esperando a procesar pedido");
                 wait();
             } catch (InterruptedException ie) {
-                getLogger().log(LogLevel.ERROR,
-                        "Cola vacia, gestor esperando: " + Thread.currentThread().toString());
+                getLogger().error(Thread.currentThread().getName() + " interrumpido mientras espera");
             }
         }
 
-        Pedido pedido = moverAProcesados();
-
-        // Si no queda nada en Recibidos y la tienda esta cerrada:
-        if (colaRecibidos.isEmpty() && !this.isOpen) return null;
-
-        notifyAll();
-        return pedido;
-    }
-
-    private Pedido moverAProcesados() {
-        // Cambiamos el pedido de estado
+        // Cambiamos el estado del pedido a EN_PROCESO
         Pedido pedidoEnProceso = colaRecibidos.poll();
         if (pedidoEnProceso != null) {
             pedidoEnProceso.setEstado(Estado.EN_PROCESO);
             // Pasamos el pedido a procesados
             colaProcesados.add(pedidoEnProceso);
+            getLogger().info("Pedido "+ pedidoEnProceso.getIdPedido() +" pasa a ColaProcesados");
         }
+
+        // Si no queda nada en Recibidos y la tienda esta cerrada:
+        if (colaRecibidos.isEmpty() && !this.isOpen) return null;
+
+        notifyAll();
         return pedidoEnProceso;
     }
+
 
     /** TRANSPORTISTAS
      * Metodo que transporta un pedido procesado, sacandolo de la lista Procesados.
      * Sleep para simular transporte.
      */
-    synchronized public void enviarProcesado(){
+    synchronized public Pedido transportarProcesado(){
             // Si la cola esta vacia y la tienda sigue abierta, se espera
             while (colaProcesados.isEmpty() && this.isOpen) {
                 try {
                     wait();
                 } catch (InterruptedException ie) {
-                    getLogger().log(LogLevel.ERROR,
-                            "ColaProcesados vacia, transportista esperando: " + Thread.currentThread().toString());
+                    getLogger().error("ColaProcesados vacia, transportista esperando: " + Thread.currentThread().getName());
                 }
             }
 
             // Cambiamos el pedido de estado
-            Pedido pedidoEnviado = colaRecibidos.poll();
+            Pedido pedidoEnviado = colaProcesados.poll();
             if (pedidoEnviado != null) {
                 pedidoEnviado.setEstado(Estado.ENVIADO);
-
+                getLogger().info("Pedido "+ pedidoEnviado.getIdPedido() +" enviado correctamente.");
                 try {
                     Thread.sleep(80);
                 } catch (InterruptedException ie) {
-                    getLogger().log(LogLevel.TRACE,
-                            "Preparando pedido: " + pedidoEnviado.getIdPedido());
+                    getLogger().trace("Preparando pedido: " + pedidoEnviado.getIdPedido());
                 }
             }
 
             // Si no quedan Procesados y la tienda esta cerrada:
-            if (colaProcesados.isEmpty() && !this.isOpen) return;
+            if (colaProcesados.isEmpty() && !this.isOpen) return null;
 
             notifyAll();
-
+            return pedidoEnviado;
         }
 
     public Queue<Pedido> getColaRecibidos() {
