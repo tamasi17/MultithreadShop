@@ -7,6 +7,7 @@ import main.java.utils.*;
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 
 import static main.java.logging.LoggerProvider.getLogger;
 
@@ -21,6 +22,7 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
     private final ColaPedidosClasica colaPedidos;
     private final LinkedList<ClienteNormal> colaClientes;
     private boolean isOpen;
+    private ProductoExclusivo[] productoExclusivos;
 
     /**
      * Constructor de Tienda
@@ -33,6 +35,13 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
         productManager.loadFromCsv(new File("src/main/resources/productos_tienda_tech.csv"));
         colaPedidos = new ColaPedidosClasica();
         colaClientes = new LinkedList<>();
+
+        ProductoExclusivo[] p = new ProductoExclusivo[6];
+        for (int i = 0; i < 6; i++) {
+            p[i] = new ProductoExclusivo(i);
+        }
+        this.productoExclusivos = p;
+
         isOpen = true;
         getLogger().log(LogLevel.TRACE,
                 "Tienda abierta con "+ productManager.getProductos().size()+ " productos.");
@@ -49,6 +58,35 @@ public class Tienda implements AccesoCliente, AccesoGestor, AccesoTransportista 
         Pedido pedido = new Pedido(carrito);
         colaPedidos.añadirPedido(pedido);
         getLogger().info("Pedido añadido a ColaRecibidos: "+ pedido.getIdPedido());
+    }
+
+    /**CLIENTES VIP
+     * Genera un pack de dos ProductosExclusivos aleatorios
+     * @return
+     */
+    public ProductoExclusivo[] generarPackExclusivo(){
+        Random random =new Random();
+        ProductoExclusivo p1 = productoExclusivos[random.nextInt(6)];
+        ProductoExclusivo p2;
+
+        // Otro producto exclusivo diferente
+        do {
+            p2 = productoExclusivos[random.nextInt(6)];
+        } while (p2 == p1);
+
+        return new ProductoExclusivo[]{p1,p2};
+    }
+
+    /**
+     * Confirma si todos los ProductosExclusivos han sido vendidos
+     * @return
+     */
+    public boolean todosLosExclusivosVendidos() {
+        for (ProductoExclusivo p : productoExclusivos) {
+            if (!p.isVendido()) return false; // queda alguno por vender
+        }
+        getLogger().info("Todos los productos exclusivos han sido vendidos!");
+        return true;
     }
 
     /** GESTORES

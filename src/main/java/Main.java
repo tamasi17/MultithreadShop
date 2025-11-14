@@ -4,19 +4,17 @@ package main.java;
 import main.java.logging.LogLevel;
 import main.java.logging.Logger;
 import main.java.logging.LoggerProvider;
-import main.java.models.ClienteNormal;
-import main.java.models.GestorAlmacen;
-import main.java.models.Tienda;
-import main.java.models.Transportista;
+import main.java.models.*;
 
 import java.util.ArrayList;
 
 public class Main {
 
     static Logger LOGGER = LoggerProvider.getLogger();
-    static final int NUM_CLIENTES = 50;
-    static final int NUM_GESTORES = 20;
-    static final int NUM_TRANSPORTISTAS = 10;
+    static final int NUM_CLIENTES = 0;
+    static final int NUM_VIP = 9;
+    static final int NUM_GESTORES = 0;
+    static final int NUM_TRANSPORTISTAS = 0;
 
     public static void main(String[] args) {
 
@@ -27,6 +25,7 @@ public class Main {
         Tienda tienda = new Tienda();
 
         ArrayList<Thread> clientes = generarClientes(tienda);
+        ArrayList<Thread> clientesVIP = generarClientesVIP(tienda);
 
         try {
             Thread.sleep(40);
@@ -88,6 +87,16 @@ public class Main {
         return listaClientes;
     }
 
+    private static ArrayList<Thread> generarClientesVIP(Tienda tienda){
+        ArrayList<Thread> listaVIP = new ArrayList<>();
+        LOGGER.info("Llegan los clientes VIP");
+        for (int i = 0; i < NUM_VIP; i++) {
+            ClienteVIP vip = new ClienteVIP(tienda);
+            listaVIP.add(vip);
+            vip.start();
+        }
+        return listaVIP;
+    }
 
     private static ArrayList<Thread> generarGestores(Tienda tienda) {
         ArrayList<Thread> listaGestores = new ArrayList<>();
@@ -101,7 +110,7 @@ public class Main {
 
 
     private static ArrayList<Thread> generarTransportistas(Tienda tienda) {
-        LOGGER.info(">> Transportistas comienzan jornada");
+        LOGGER.info("Transportistas comienzan jornada");
         ArrayList<Thread> listaTransportistas = new ArrayList<>();
 
         // Create a fixed number of transportistas
