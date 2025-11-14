@@ -32,13 +32,12 @@ public class ProductoExclusivo {
 
         // Si el producto no estaba reservado, salta este while y reserva directamente
         long inicio = System.currentTimeMillis();
-        while (this.reservado) {
-            long transcurrido = System.currentTimeMillis() - inicio;
-            long restante = 150 - transcurrido;
-            if (restante <= 0) { // si no se ha vendido en timeout, devolvemos falso
+        while (this.reservado) { // si otro reservó
+            long restante = 150 - (System.currentTimeMillis() - inicio); // 150-tiempo transcurrido
+            if (restante <= 0) { // si pasa el timeout y sigue reservado, devolvemos falso
                 getLogger().info(vip.toString() + ": Liberado producto " + tipo);
                 reservado = false;
-                notifyAll();
+                notifyAll(); // notificamos de que esta disponible otra vez
                 return false;
             }
             try {

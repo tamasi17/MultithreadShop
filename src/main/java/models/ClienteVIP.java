@@ -26,10 +26,20 @@ public class ClienteVIP extends Thread implements Cliente {
     @Override
     public void run() {
         getLogger().trace("VIP " + idCliente + " entra a la tienda");
-        elegirArticulos();
+
+        //        elegirArticulos(); // revisar metodo
+
+
+        try {
+            intentarReservar();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**
+     * Primera version, la guardo para revisar más tarde, se venden todos los productos sin repetirse,
+     * pero no estoy seguro de que sea por parejas.
      * Metodo que elige entre 1 y 3 articulos aleatorios, comprobando si hay stock.
      */
     public void elegirArticulos() {
@@ -98,8 +108,56 @@ public class ClienteVIP extends Thread implements Cliente {
 
         } // fin while exclusivosVendidos()
 
-
     }
+
+    private void intentarReservar() throws InterruptedException {
+
+        while (!tienda.todosLosExclusivosVendidos()) {
+
+            ProductoExclusivo[] pack = tienda.generarPackExclusivo();
+            ProductoExclusivo p1 = pack[0];
+            ProductoExclusivo p2 = pack[1];
+
+            // Siempre el mismo orden, en este caso, primero el mas pequeño
+            // Si dos clientes eligen el mismo pack, esto evita deadlocks
+            ProductoExclusivo primero = p1.tipo.ordinal() < p2.tipo.ordinal() ? p1 : p2;
+            ProductoExclusivo segundo = primero == p1 ? p2 : p1;
+
+            synchronized (primero) {
+
+                if (primero.isVendido()) return;  // no se puede comprar
+                while (primero.isReservado()) {    // esperamos 150millis
+                    primero.wait(150);    // timeout
+                    if (primero.isVendido()) return;       // update
+                }
+
+                if (primero.reservar(this)) {
+                    synchronized (segundo) {
+
+                        if (segundo.isVendido()) {
+                            primero.liberar(this);
+                            return;
+                        }
+                        while (segundo.isReservado()) {
+                            segundo.wait(150);   // timeout
+                            if (segundo.isVendido()) {
+                                primero.liberar(this);
+                                return;       // update
+                            }
+                        }
+
+                        segundo.reservar(this);
+
+                        primero.confirmarCompra(this);
+                        segundo.confirmarCompra(this);
+
+
+                    }
+                }
+            }
+        }
+    }
+
 
     @Override
     public String toString() {
