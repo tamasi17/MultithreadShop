@@ -27,14 +27,15 @@ public class ClienteVIP extends Thread implements Cliente {
     public void run() {
         getLogger().trace("VIP " + idCliente + " entra a la tienda");
 
-        //        elegirArticulos(); // revisar metodo
-
-
+        // Version 1:
         try {
             intentarReservar();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+        //  elegirArticulos(); // revisar metodo
+
     }
 
     /**

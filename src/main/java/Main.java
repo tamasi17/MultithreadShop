@@ -12,7 +12,7 @@ public class Main {
 
     static Logger LOGGER = LoggerProvider.getLogger();
     static final int NUM_CLIENTES = 0;
-    static final int NUM_VIP = 9;
+    static final int NUM_VIP = 25;
     static final int NUM_GESTORES = 0;
     static final int NUM_TRANSPORTISTAS = 0;
 
