@@ -24,6 +24,7 @@ public class Main {
         // Abrimos tienda
         Tienda tienda = new Tienda();
 
+        // LLegan clientes
         ArrayList<Thread> clientes = generarClientes(tienda);
         ArrayList<Thread> clientesVIP = generarClientesVIP(tienda);
 
@@ -33,8 +34,8 @@ public class Main {
             LOGGER.trace("Tiempo para que los clientes hagan sus pedidos");
         }
 
+        // Llegan worker threads
         ArrayList<Thread> gestores = generarGestores(tienda);
-
         ArrayList<Thread> transportistas = generarTransportistas(tienda);
 
         try {
@@ -42,8 +43,6 @@ public class Main {
         } catch (InterruptedException ie) {
             LOGGER.trace("Esperando a que terminen Clientes");
         }
-
-        // tienda.muestraPedidos();
 
         tienda.close();
 
