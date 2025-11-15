@@ -40,7 +40,7 @@ public class ClienteVIP extends Thread implements Cliente {
 
     /**
      * Primera version, la guardo para revisar más tarde, se venden todos los productos sin repetirse,
-     * pero no estoy seguro de que sea por parejas.
+     * pero no siempre funciona por parejas.
      * Metodo que elige entre 1 y 3 articulos aleatorios, comprobando si hay stock.
      */
     public void elegirArticulos() {
