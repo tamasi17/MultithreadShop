@@ -20,9 +20,9 @@ import static main.logging.LoggerProvider.getLogger;
 
 public class ClienteV2 extends Thread {
 
-    private int idCliente;
-    private static int contador = 0;
-    private List<ArticuloV2> carrito;
+        private int idCliente;
+        private static int contador = 0;
+        private List<ArticuloV2> carrito;
     private ArrayBlockingQueue<ArticuloV2> cola;
 
 
