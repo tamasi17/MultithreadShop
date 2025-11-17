@@ -1,0 +1,183 @@
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 8
+[1] [2025-11-17_02-32-30_417] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 3
+[1] [2025-11-17_02-32-30_417] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[1] [2025-11-17_02-32-30_419] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 4
+[1] [2025-11-17_02-32-30_417] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 3
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[1] [2025-11-17_02-32-30_419] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[1] [2025-11-17_02-32-30_419] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 7
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 3
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 9
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 7
+[1] [2025-11-17_02-32-30_417] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 2
+[1] [2025-11-17_02-32-30_417] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[1] [2025-11-17_02-32-30_419] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[1] [2025-11-17_02-32-30_419] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 9
+[1] [2025-11-17_02-32-30_418] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 9
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 3
+[1] [2025-11-17_02-32-30_419] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[1] [2025-11-17_02-32-30_416] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 9
+[21] [2025-11-17_02-32-30_430] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[21] [2025-11-17_02-32-30_431] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [10] añade articulo a la cola de recibidos
+[21] [2025-11-17_02-32-30_432] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 10
+[21] [2025-11-17_02-32-30_432] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[21] [2025-11-17_02-32-30_432] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 2
+[21] [2025-11-17_02-32-30_432] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] coge articulo de la cola de recibidos
+[21] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] coge articulo de la cola de recibidos
+[21] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [2] añade articulo a la cola de recibidos
+[24] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [20] añade articulo a la cola de recibidos
+[24] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] coge articulo de la cola de recibidos
+[24] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 5
+[24] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[24] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 9
+[24] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 9
+[34] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] coge articulo de la cola de recibidos
+[34] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[35] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [6] añade articulo a la cola de recibidos
+[35] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 2
+[37] [2025-11-17_02-32-30_435] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [16] añade articulo a la cola de recibidos
+[37] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [18] añade articulo a la cola de recibidos
+[25] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] coge articulo de la cola de recibidos
+[37] [2025-11-17_02-32-30_435] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] coge articulo de la cola de recibidos
+[37] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [9] coge articulo de la cola de recibidos
+[37] [2025-11-17_02-32-30_435] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [7] añade articulo a la cola de recibidos
+[37] [2025-11-17_02-32-30_433] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [4] coge articulo de la cola de recibidos
+[37] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [11] añade articulo a la cola de recibidos
+[37] [2025-11-17_02-32-30_435] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 8
+[37] [2025-11-17_02-32-30_436] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 10
+[37] [2025-11-17_02-32-30_434] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [10] coge articulo de la cola de recibidos
+[38] [2025-11-17_02-32-30_436] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[37] [2025-11-17_02-32-30_435] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [12] añade articulo a la cola de recibidos
+[39] [2025-11-17_02-32-30_437] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 6
+[44] [2025-11-17_02-32-30_438] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 1
+[44] [2025-11-17_02-32-30_438] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [1] añade articulo a la cola de recibidos
+[45] [2025-11-17_02-32-30_438] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [15] añade articulo a la cola de recibidos
+[45] [2025-11-17_02-32-30_438] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [3] añade articulo a la cola de recibidos
+[57] [2025-11-17_02-32-30_439] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] procesa pedido 3
+[57] [2025-11-17_02-32-30_439] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [6] coge articulo de la cola de recibidos
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [19] añade articulo a la cola de recibidos
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] procesa pedido 3
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [17] añade articulo a la cola de recibidos
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] procesa pedido 9
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [13] añade articulo a la cola de recibidos
+[57] [2025-11-17_02-32-30_441] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] procesa pedido 6
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] procesa pedido 9
+[57] [2025-11-17_02-32-30_440] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] procesa pedido 3
+[57] [2025-11-17_02-32-30_441] [INFO] [main.v2.modelsv2.ClienteV2.elegirArticulos]: Articulo añadido al carrito: 0
+[58] [2025-11-17_02-32-30_442] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [9] añade articulo a la cola de recibidos
+[62] [2025-11-17_02-32-30_442] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [4] añade articulo a la cola de recibidos
+[64] [2025-11-17_02-32-30_442] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [8] añade articulo a la cola de recibidos
+[65] [2025-11-17_02-32-30_442] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [15] añade articulo a la cola de recibidos
+[69] [2025-11-17_02-32-30_444] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [3] añade articulo a la cola de recibidos
+[69] [2025-11-17_02-32-30_443] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [5] añade articulo a la cola de recibidos
+[69] [2025-11-17_02-32-30_444] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [1] añade articulo a la cola de recibidos
+[75] [2025-11-17_02-32-30_445] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [19] añade articulo a la cola de recibidos
+[75] [2025-11-17_02-32-30_445] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [17] añade articulo a la cola de recibidos
+[77] [2025-11-17_02-32-30_446] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [14] añade articulo a la cola de recibidos
+[77] [2025-11-17_02-32-30_446] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [13] añade articulo a la cola de recibidos
+[77] [2025-11-17_02-32-30_446] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [9] añade articulo a la cola de recibidos
+[80] [2025-11-17_02-32-30_446] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [4] añade articulo a la cola de recibidos
+[80] [2025-11-17_02-32-30_446] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [5] añade articulo a la cola de recibidos
+[80] [2025-11-17_02-32-30_446] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [8] añade articulo a la cola de recibidos
+[83] [2025-11-17_02-32-30_447] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [14] añade articulo a la cola de recibidos
+[83] [2025-11-17_02-32-30_448] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [9] añade articulo a la cola de recibidos
+[84] [2025-11-17_02-32-30_448] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [4] añade articulo a la cola de recibidos
+[86] [2025-11-17_02-32-30_448] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [8] añade articulo a la cola de recibidos
+[86] [2025-11-17_02-32-30_448] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [5] añade articulo a la cola de recibidos
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.ClienteV2.run]: Cliente [14] añade articulo a la cola de recibidos
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [9] procesa pedido 3
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [10] procesa pedido 0
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] coge articulo de la cola de recibidos
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] coge articulo de la cola de recibidos
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [4] procesa pedido 0
+[88] [2025-11-17_02-32-30_645] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] coge articulo de la cola de recibidos
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [3] procesa pedido 9
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] coge articulo de la cola de recibidos
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [5] procesa pedido 3
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [1] procesa pedido 3
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [4] procesa pedido 6
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] coge articulo de la cola de recibidos
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [6] procesa pedido 9
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [11] procesa pedido 3
+[95] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [6] procesa pedido 9
+[95] [2025-11-17_02-32-30_647] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] procesa pedido 7
+[96] [2025-11-17_02-32-30_646] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] coge articulo de la cola de recibidos
+[97] [2025-11-17_02-32-30_648] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] procesa pedido 7
+[107] [2025-11-17_02-32-30_847] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [9] coge articulo de la cola de recibidos
+[107] [2025-11-17_02-32-30_847] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [2] procesa pedido 3
+[107] [2025-11-17_02-32-30_847] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] procesa pedido 2
+[110] [2025-11-17_02-32-30_848] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [10] coge articulo de la cola de recibidos
+[111] [2025-11-17_02-32-30_848] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] procesa pedido 8
+[111] [2025-11-17_02-32-30_848] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] procesa pedido 0
+[113] [2025-11-17_02-32-30_848] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [4] coge articulo de la cola de recibidos
+[113] [2025-11-17_02-32-30_849] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] coge articulo de la cola de recibidos
+[113] [2025-11-17_02-32-30_848] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [7] procesa pedido 0
+[113] [2025-11-17_02-32-30_848] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [12] procesa pedido 0
+[114] [2025-11-17_02-32-30_849] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [9] procesa pedido 7
+[113] [2025-11-17_02-32-30_849] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] procesa pedido 9
+[119] [2025-11-17_02-32-30_851] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [6] coge articulo de la cola de recibidos
+[119] [2025-11-17_02-32-30_851] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [10] procesa pedido 4
+[119] [2025-11-17_02-32-30_851] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] coge articulo de la cola de recibidos
+[119] [2025-11-17_02-32-30_851] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [10] procesa pedido 7
+[119] [2025-11-17_02-32-30_851] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [8] procesa pedido 9
+[119] [2025-11-17_02-32-30_851] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [9] procesa pedido 6
+[125] [2025-11-17_02-32-31_050] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [4] procesa pedido 0
+[125] [2025-11-17_02-32-31_050] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] coge articulo de la cola de recibidos
+[125] [2025-11-17_02-32-31_051] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] procesa pedido 5
+[126] [2025-11-17_02-32-31_052] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] coge articulo de la cola de recibidos
+[126] [2025-11-17_02-32-31_052] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [6] procesa pedido 0
+[127] [2025-11-17_02-32-31_052] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] coge articulo de la cola de recibidos
+[131] [2025-11-17_02-32-31_054] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [3] procesa pedido 8
+[131] [2025-11-17_02-32-31_054] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [11] procesa pedido 2
+[131] [2025-11-17_02-32-31_054] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [6] procesa pedido 0
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [4] procesa pedido 9
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] coge articulo de la cola de recibidos
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] procesa pedido 9
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [5] procesa pedido 4
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [10] coge articulo de la cola de recibidos
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [9] coge articulo de la cola de recibidos
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [1] procesa pedido 6
+[134] [2025-11-17_02-32-31_055] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] procesa pedido 9
+[135] [2025-11-17_02-32-31_056] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] procesa pedido 2
+[143] [2025-11-17_02-32-31_256] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] procesa pedido 0
+[143] [2025-11-17_02-32-31_257] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [4] coge articulo de la cola de recibidos
+[143] [2025-11-17_02-32-31_258] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] procesa pedido 6
+[143] [2025-11-17_02-32-31_260] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] coge articulo de la cola de recibidos
+[143] [2025-11-17_02-32-31_260] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [7] procesa pedido 5
+[143] [2025-11-17_02-32-31_260] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [6] coge articulo de la cola de recibidos
+[143] [2025-11-17_02-32-31_257] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [8] procesa pedido 0
+[145] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [10] procesa pedido 6
+[149] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] coge articulo de la cola de recibidos
+[148] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [9] procesa pedido 0
+[151] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] coge articulo de la cola de recibidos
+[152] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [2] procesa pedido 2
+[153] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [12] procesa pedido 9
+[153] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [9] procesa pedido 2
+[153] [2025-11-17_02-32-31_262] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [10] procesa pedido 9
+[153] [2025-11-17_02-32-31_263] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] coge articulo de la cola de recibidos
+[159] [2025-11-17_02-32-31_264] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [4] procesa pedido 6
+[159] [2025-11-17_02-32-31_264] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [3] procesa pedido 10
+[161] [2025-11-17_02-32-31_464] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [6] procesa pedido 8
+[161] [2025-11-17_02-32-31_464] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] coge articulo de la cola de recibidos
+[161] [2025-11-17_02-32-31_464] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [6] procesa pedido 6
+[161] [2025-11-17_02-32-31_464] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [3] procesa pedido 0
+[161] [2025-11-17_02-32-31_464] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [2] procesa pedido 10
+[161] [2025-11-17_02-32-31_464] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] coge articulo de la cola de recibidos
+[167] [2025-11-17_02-32-31_465] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [1] procesa pedido 6
+[168] [2025-11-17_02-32-31_465] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [11] procesa pedido 2
+[169] [2025-11-17_02-32-31_466] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [8] procesa pedido 1
+[169] [2025-11-17_02-32-31_466] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [5] procesa pedido 6
+[171] [2025-11-17_02-32-31_467] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [5] procesa pedido 6
+[172] [2025-11-17_02-32-31_467] [INFO] [main.v2.modelsv2.GestorV2.run]: Gestor [7] procesa pedido 0
+[172] [2025-11-17_02-32-31_467] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [4] procesa pedido 6
+[172] [2025-11-17_02-32-31_467] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [1] procesa pedido 10
+[175] [2025-11-17_02-32-31_667] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [2] procesa pedido 10
+[175] [2025-11-17_02-32-31_669] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [12] procesa pedido 6
+[175] [2025-11-17_02-32-31_667] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [10] procesa pedido 8
+[175] [2025-11-17_02-32-31_667] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [7] procesa pedido 6
+[179] [2025-11-17_02-32-31_671] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [9] procesa pedido 1
+[180] [2025-11-17_02-32-31_673] [INFO] [main.v2.modelsv2.TransportistaV2.run]: Transportista [8] procesa pedido 0
+[181] [2025-11-17_02-32-31_710] [INFO] [main.v2.Mainv2.main]: Tienda cerrada. 
+Recibidos: 36
+Procesados: 36
